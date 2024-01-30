@@ -28,12 +28,10 @@ class ElasticSearchKafkaUploadRecord:
         return {"status": 200, "data": {"message": "record uploaded to Elastic Search"}}
 
 def main():
-    os.environ['KAFKA_TOPIC'] = "FirstTopic"
-    os.environ['SERVER_END_POINT'] = "3.82.243.106:9200"
-
+    # Now these will use the values from the environment variables set in .bashrc
     consumer = KafkaConsumer(os.getenv("KAFKA_TOPIC"),
                              group_id='my-consumer-group', 
-                             bootstrap_servers='3.82.243.106:9093',
+                             bootstrap_servers=os.getenv("KAFKA_SERVER"),
                              auto_offset_reset='earliest',
                              enable_auto_commit=True
                              )

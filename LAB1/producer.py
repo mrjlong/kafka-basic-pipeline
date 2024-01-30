@@ -2,11 +2,12 @@ try:
     from kafka import KafkaProducer
     from faker import Faker
     import json
+    import os
     from time import sleep
 except Exception as e:
     pass
 
-producer = KafkaProducer(bootstrap_servers='3.82.243.106:9093')
+producer = KafkaProducer(bootstrap_servers=os.getenv("KAFKA_SERVER"))
 _instance = Faker()
 
 
