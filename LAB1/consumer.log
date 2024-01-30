@@ -1,0 +1,1716 @@
+2024-01-29 20:51:17,166 INFO <BrokerConnection node_id=bootstrap-0 host=3.82.243.106:9093 <connecting> [IPv4 ('3.82.243.106', 9093)]>: connecting to 3.82.243.106:9093 [('3.82.243.106', 9093) IPv4]
+2024-01-29 20:51:17,166 INFO Probing node bootstrap-0 broker version
+2024-01-29 20:51:17,167 INFO <BrokerConnection node_id=bootstrap-0 host=3.82.243.106:9093 <connecting> [IPv4 ('3.82.243.106', 9093)]>: Connection complete.
+2024-01-29 20:51:17,272 INFO Broker version identified as 2.5.0
+2024-01-29 20:51:17,272 INFO Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-01-29 20:51:17,273 INFO Updating subscribed topics to: ('FirstTopic',)
+2024-01-29 20:51:17,276 INFO Group coordinator for my-consumer-group is BrokerMetadata(nodeId='coordinator-1', host='localhost', port=9092, rack=None)
+2024-01-29 20:51:17,276 INFO Discovered coordinator coordinator-1 for group my-consumer-group
+2024-01-29 20:51:17,276 INFO Starting new heartbeat thread
+2024-01-29 20:51:17,276 INFO Revoking previously assigned partitions set() for group my-consumer-group
+2024-01-29 20:51:17,277 INFO <BrokerConnection node_id=coordinator-1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-01-29 20:51:17,277 ERROR Connect attempt to <BrokerConnection node_id=coordinator-1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 111. Disconnecting.
+2024-01-29 20:51:17,277 INFO <BrokerConnection node_id=coordinator-1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2024-01-29 20:51:17,277 WARNING Node coordinator-1 connection failed -- refreshing metadata
+2024-01-29 20:51:17,378 WARNING Marking the coordinator dead (node coordinator-1) for group my-consumer-group: Node Disconnected.
+2024-01-29 20:51:17,380 INFO Group coordinator for my-consumer-group is BrokerMetadata(nodeId='coordinator-1', host='localhost', port=9092, rack=None)
+2024-01-29 20:51:17,380 INFO Discovered coordinator coordinator-1 for group my-consumer-group
+2024-01-29 20:51:17,380 WARNING Marking the coordinator dead (node coordinator-1) for group my-consumer-group: Node Disconnected.
+2024-01-29 20:51:17,380 INFO <BrokerConnection node_id=coordinator-1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-01-29 20:51:17,381 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-01-29 20:51:17,381 ERROR Connect attempt to <BrokerConnection node_id=coordinator-1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 111. Disconnecting.
+2024-01-29 20:51:17,381 INFO <BrokerConnection node_id=coordinator-1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2024-01-29 20:51:17,381 WARNING Node coordinator-1 connection failed -- refreshing metadata
+2024-01-29 20:51:17,382 ERROR Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 111. Disconnecting.
+2024-01-29 20:51:17,382 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2024-01-29 20:51:17,382 WARNING Node 1 connection failed -- refreshing metadata
+2024-01-29 20:51:17,482 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-01-29 20:51:17,483 ERROR Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 111. Disconnecting.
+2024-01-29 20:51:17,483 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2024-01-29 20:51:17,483 WARNING Node 1 connection failed -- refreshing metadata
+2024-01-29 20:51:17,684 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-01-29 20:51:17,685 ERROR Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 111. Disconnecting.
+2024-01-29 20:51:17,685 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2024-01-29 20:51:17,685 WARNING Node 1 connection failed -- refreshing metadata
+2024-01-29 20:51:17,937 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-01-29 20:51:17,937 ERROR Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 111. Disconnecting.
+2024-01-29 20:51:17,937 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2024-01-29 20:51:17,937 WARNING Node 1 connection failed -- refreshing metadata
+2024-01-29 20:51:18,390 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-01-29 20:51:18,390 ERROR Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 111. Disconnecting.
+2024-01-29 20:51:18,391 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2024-01-29 20:51:18,391 WARNING Node 1 connection failed -- refreshing metadata
+2024-01-29 20:51:19,396 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-01-29 20:51:19,397 ERROR Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 111. Disconnecting.
+2024-01-29 20:51:19,397 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2024-01-29 20:51:19,397 WARNING Node 1 connection failed -- refreshing metadata
+2024-01-29 20:51:20,604 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-01-29 20:51:20,604 ERROR Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 111. Disconnecting.
+2024-01-29 20:51:20,604 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2024-01-29 20:51:20,604 WARNING Node 1 connection failed -- refreshing metadata
+2024-01-29 20:51:21,660 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-01-29 20:51:21,661 ERROR Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 111. Disconnecting.
+2024-01-29 20:51:21,661 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2024-01-29 20:51:21,661 WARNING Node 1 connection failed -- refreshing metadata
+2024-01-29 20:51:22,767 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-01-29 20:51:22,768 ERROR Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 111. Disconnecting.
+2024-01-29 20:51:22,768 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2024-01-29 20:51:22,768 WARNING Node 1 connection failed -- refreshing metadata
+2024-01-29 20:51:23,975 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-01-29 20:51:23,975 ERROR Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 111. Disconnecting.
+2024-01-29 20:51:23,975 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2024-01-29 20:51:23,976 WARNING Node 1 connection failed -- refreshing metadata
+2024-01-29 20:51:25,082 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-01-29 20:51:25,082 ERROR Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 111. Disconnecting.
+2024-01-29 20:51:25,082 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2024-01-29 20:51:25,082 WARNING Node 1 connection failed -- refreshing metadata
+2024-01-29 20:51:26,239 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-01-29 20:51:26,239 ERROR Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 111. Disconnecting.
+2024-01-29 20:51:26,239 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2024-01-29 20:51:26,240 WARNING Node 1 connection failed -- refreshing metadata
+2024-01-29 20:51:27,246 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-01-29 20:51:27,246 ERROR Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 111. Disconnecting.
+2024-01-29 20:51:27,246 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2024-01-29 20:51:27,246 WARNING Node 1 connection failed -- refreshing metadata
+2024-01-29 20:51:28,252 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-01-29 20:51:28,253 ERROR Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 111. Disconnecting.
+2024-01-29 20:51:28,253 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2024-01-29 20:51:28,253 WARNING Node 1 connection failed -- refreshing metadata
+2024-01-29 20:51:29,359 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-01-29 20:51:29,360 ERROR Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 111. Disconnecting.
+2024-01-29 20:51:29,360 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2024-01-29 20:51:29,360 WARNING Node 1 connection failed -- refreshing metadata
+2024-01-29 20:51:30,516 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-01-29 20:51:30,517 ERROR Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 111. Disconnecting.
+2024-01-29 20:51:30,517 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2024-01-29 20:51:30,517 WARNING Node 1 connection failed -- refreshing metadata
+2024-01-29 20:51:31,623 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-01-29 20:51:31,624 ERROR Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 111. Disconnecting.
+2024-01-29 20:51:31,624 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2024-01-29 20:51:31,624 WARNING Node 1 connection failed -- refreshing metadata
+2024-01-29 20:51:32,781 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-01-29 20:51:32,781 ERROR Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 111. Disconnecting.
+2024-01-29 20:51:32,781 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2024-01-29 20:51:32,782 WARNING Node 1 connection failed -- refreshing metadata
+2024-01-29 20:51:34,039 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-01-29 20:51:34,039 ERROR Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 111. Disconnecting.
+2024-01-29 20:51:34,039 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2024-01-29 20:51:34,039 WARNING Node 1 connection failed -- refreshing metadata
+2024-01-29 20:51:34,945 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-01-29 20:51:34,945 ERROR Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 111. Disconnecting.
+2024-01-29 20:51:34,945 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2024-01-29 20:51:34,945 WARNING Node 1 connection failed -- refreshing metadata
+2024-01-29 20:51:35,901 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-01-29 20:51:35,901 ERROR Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 111. Disconnecting.
+2024-01-29 20:51:35,901 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2024-01-29 20:51:35,901 WARNING Node 1 connection failed -- refreshing metadata
+2024-01-29 20:51:36,806 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-01-29 20:51:36,806 ERROR Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 111. Disconnecting.
+2024-01-29 20:51:36,807 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2024-01-29 20:51:36,807 WARNING Node 1 connection failed -- refreshing metadata
+2024-01-29 20:51:37,913 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-01-29 20:51:37,914 ERROR Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 111. Disconnecting.
+2024-01-29 20:51:37,914 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2024-01-29 20:51:37,914 WARNING Node 1 connection failed -- refreshing metadata
+2024-01-29 20:51:39,120 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-01-29 20:51:39,121 ERROR Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 111. Disconnecting.
+2024-01-29 20:51:39,121 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2024-01-29 20:51:39,121 WARNING Node 1 connection failed -- refreshing metadata
+2024-01-29 20:51:40,277 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-01-29 20:51:40,278 ERROR Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 111. Disconnecting.
+2024-01-29 20:51:40,278 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2024-01-29 20:51:40,278 WARNING Node 1 connection failed -- refreshing metadata
+2024-01-29 20:51:41,384 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-01-29 20:51:41,385 ERROR Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 111. Disconnecting.
+2024-01-29 20:51:41,385 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2024-01-29 20:51:41,385 WARNING Node 1 connection failed -- refreshing metadata
+2024-01-29 20:51:42,642 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-01-29 20:51:42,642 ERROR Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 111. Disconnecting.
+2024-01-29 20:51:42,642 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2024-01-29 20:51:42,642 WARNING Node 1 connection failed -- refreshing metadata
+2024-01-29 20:51:43,598 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-01-29 20:51:43,598 ERROR Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 111. Disconnecting.
+2024-01-29 20:51:43,598 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2024-01-29 20:51:43,598 WARNING Node 1 connection failed -- refreshing metadata
+2024-01-29 20:51:44,755 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-01-29 20:51:44,755 ERROR Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 111. Disconnecting.
+2024-01-29 20:51:44,755 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2024-01-29 20:51:44,756 WARNING Node 1 connection failed -- refreshing metadata
+2024-01-29 20:51:45,862 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-01-29 20:51:45,862 ERROR Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 111. Disconnecting.
+2024-01-29 20:51:45,862 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2024-01-29 20:51:45,862 WARNING Node 1 connection failed -- refreshing metadata
+2024-01-29 20:51:47,019 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-01-29 20:51:47,019 ERROR Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 111. Disconnecting.
+2024-01-29 20:51:47,019 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2024-01-29 20:51:47,019 WARNING Node 1 connection failed -- refreshing metadata
+2024-01-29 20:51:47,975 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-01-29 20:51:47,975 ERROR Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 111. Disconnecting.
+2024-01-29 20:51:47,975 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2024-01-29 20:51:47,976 WARNING Node 1 connection failed -- refreshing metadata
+2024-01-29 20:51:49,183 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-01-29 20:51:49,183 ERROR Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 111. Disconnecting.
+2024-01-29 20:51:49,183 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2024-01-29 20:51:49,183 WARNING Node 1 connection failed -- refreshing metadata
+2024-01-29 20:51:50,239 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-01-29 20:51:50,240 ERROR Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 111. Disconnecting.
+2024-01-29 20:51:50,240 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2024-01-29 20:51:50,240 WARNING Node 1 connection failed -- refreshing metadata
+2024-01-29 20:51:51,447 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-01-29 20:51:51,447 ERROR Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 111. Disconnecting.
+2024-01-29 20:51:51,447 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2024-01-29 20:51:51,447 WARNING Node 1 connection failed -- refreshing metadata
+2024-01-29 20:51:52,402 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-01-29 20:51:52,403 ERROR Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 111. Disconnecting.
+2024-01-29 20:51:52,403 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2024-01-29 20:51:52,403 WARNING Node 1 connection failed -- refreshing metadata
+2024-01-29 20:51:53,409 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-01-29 20:51:53,409 ERROR Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 111. Disconnecting.
+2024-01-29 20:51:53,409 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2024-01-29 20:51:53,409 WARNING Node 1 connection failed -- refreshing metadata
+2024-01-29 20:51:54,364 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-01-29 20:51:54,365 ERROR Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 111. Disconnecting.
+2024-01-29 20:51:54,365 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2024-01-29 20:51:54,365 WARNING Node 1 connection failed -- refreshing metadata
+2024-01-29 20:51:55,320 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-01-29 20:51:55,320 ERROR Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 111. Disconnecting.
+2024-01-29 20:51:55,321 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2024-01-29 20:51:55,321 WARNING Node 1 connection failed -- refreshing metadata
+2024-01-29 20:51:56,175 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-01-29 20:51:56,176 ERROR Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 111. Disconnecting.
+2024-01-29 20:51:56,176 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2024-01-29 20:51:56,176 WARNING Node 1 connection failed -- refreshing metadata
+2024-01-29 20:51:57,333 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-01-29 20:51:57,333 ERROR Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 111. Disconnecting.
+2024-01-29 20:51:57,333 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2024-01-29 20:51:57,333 WARNING Node 1 connection failed -- refreshing metadata
+2024-01-29 20:51:58,339 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-01-29 20:51:58,339 ERROR Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 111. Disconnecting.
+2024-01-29 20:51:58,339 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2024-01-29 20:51:58,340 WARNING Node 1 connection failed -- refreshing metadata
+2024-01-29 20:51:59,546 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-01-29 20:51:59,547 ERROR Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 111. Disconnecting.
+2024-01-29 20:51:59,547 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2024-01-29 20:51:59,547 WARNING Node 1 connection failed -- refreshing metadata
+2024-01-29 20:52:00,452 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-01-29 20:52:00,452 ERROR Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 111. Disconnecting.
+2024-01-29 20:52:00,452 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2024-01-29 20:52:00,453 WARNING Node 1 connection failed -- refreshing metadata
+2024-01-29 20:52:01,710 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-01-29 20:52:01,710 ERROR Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 111. Disconnecting.
+2024-01-29 20:52:01,710 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2024-01-29 20:52:01,710 WARNING Node 1 connection failed -- refreshing metadata
+2024-01-29 20:52:02,666 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-01-29 20:52:02,666 ERROR Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 111. Disconnecting.
+2024-01-29 20:52:02,666 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2024-01-29 20:52:02,666 WARNING Node 1 connection failed -- refreshing metadata
+2024-01-29 20:52:03,723 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-01-29 20:52:03,723 ERROR Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 111. Disconnecting.
+2024-01-29 20:52:03,723 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2024-01-29 20:52:03,723 WARNING Node 1 connection failed -- refreshing metadata
+2024-01-29 20:52:04,829 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-01-29 20:52:04,830 ERROR Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 111. Disconnecting.
+2024-01-29 20:52:04,830 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2024-01-29 20:52:04,830 WARNING Node 1 connection failed -- refreshing metadata
+2024-01-29 20:52:06,037 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-01-29 20:52:06,037 ERROR Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 111. Disconnecting.
+2024-01-29 20:52:06,037 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2024-01-29 20:52:06,037 WARNING Node 1 connection failed -- refreshing metadata
+2024-01-29 20:52:07,042 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-01-29 20:52:07,043 ERROR Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 111. Disconnecting.
+2024-01-29 20:52:07,043 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2024-01-29 20:52:07,043 WARNING Node 1 connection failed -- refreshing metadata
+2024-01-29 20:52:08,099 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-01-29 20:52:08,099 ERROR Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 111. Disconnecting.
+2024-01-29 20:52:08,099 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2024-01-29 20:52:08,099 WARNING Node 1 connection failed -- refreshing metadata
+2024-01-29 20:52:09,004 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-01-29 20:52:09,005 ERROR Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 111. Disconnecting.
+2024-01-29 20:52:09,005 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2024-01-29 20:52:09,005 WARNING Node 1 connection failed -- refreshing metadata
+2024-01-29 20:52:10,111 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-01-29 20:52:10,111 ERROR Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 111. Disconnecting.
+2024-01-29 20:52:10,111 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2024-01-29 20:52:10,112 WARNING Node 1 connection failed -- refreshing metadata
+2024-01-29 20:52:11,117 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-01-29 20:52:11,118 ERROR Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 111. Disconnecting.
+2024-01-29 20:52:11,118 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2024-01-29 20:52:11,118 WARNING Node 1 connection failed -- refreshing metadata
+2024-01-29 20:52:12,274 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-01-29 20:52:12,274 ERROR Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 111. Disconnecting.
+2024-01-29 20:52:12,274 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2024-01-29 20:52:12,274 WARNING Node 1 connection failed -- refreshing metadata
+2024-01-29 20:52:13,179 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-01-29 20:52:13,180 ERROR Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 111. Disconnecting.
+2024-01-29 20:52:13,180 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2024-01-29 20:52:13,180 WARNING Node 1 connection failed -- refreshing metadata
+2024-01-29 20:52:14,437 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-01-29 20:52:14,437 ERROR Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 111. Disconnecting.
+2024-01-29 20:52:14,438 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2024-01-29 20:52:14,438 WARNING Node 1 connection failed -- refreshing metadata
+2024-01-29 20:52:15,343 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-01-29 20:52:15,344 ERROR Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 111. Disconnecting.
+2024-01-29 20:52:15,344 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2024-01-29 20:52:15,344 WARNING Node 1 connection failed -- refreshing metadata
+2024-01-29 20:52:16,350 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-01-29 20:52:16,350 ERROR Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 111. Disconnecting.
+2024-01-29 20:52:16,350 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2024-01-29 20:52:16,350 WARNING Node 1 connection failed -- refreshing metadata
+2024-01-29 20:52:17,507 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-01-29 20:52:17,507 ERROR Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 111. Disconnecting.
+2024-01-29 20:52:17,507 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2024-01-29 20:52:17,507 WARNING Node 1 connection failed -- refreshing metadata
+2024-01-29 20:52:18,664 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-01-29 20:52:18,664 ERROR Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 111. Disconnecting.
+2024-01-29 20:52:18,664 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2024-01-29 20:52:18,665 WARNING Node 1 connection failed -- refreshing metadata
+2024-01-29 20:52:19,871 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-01-29 20:52:19,872 ERROR Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 111. Disconnecting.
+2024-01-29 20:52:19,872 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2024-01-29 20:52:19,872 WARNING Node 1 connection failed -- refreshing metadata
+2024-01-29 20:52:20,928 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-01-29 20:52:20,928 ERROR Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 111. Disconnecting.
+2024-01-29 20:52:20,928 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2024-01-29 20:52:20,928 WARNING Node 1 connection failed -- refreshing metadata
+2024-01-29 20:52:21,883 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-01-29 20:52:21,884 ERROR Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 111. Disconnecting.
+2024-01-29 20:52:21,884 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2024-01-29 20:52:21,884 WARNING Node 1 connection failed -- refreshing metadata
+2024-01-29 20:52:23,141 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-01-29 20:52:23,141 ERROR Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 111. Disconnecting.
+2024-01-29 20:52:23,142 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2024-01-29 20:52:23,142 WARNING Node 1 connection failed -- refreshing metadata
+2024-01-29 20:52:24,348 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-01-29 20:52:24,349 ERROR Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 111. Disconnecting.
+2024-01-29 20:52:24,349 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2024-01-29 20:52:24,349 WARNING Node 1 connection failed -- refreshing metadata
+2024-01-29 20:52:25,355 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-01-29 20:52:25,355 ERROR Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 111. Disconnecting.
+2024-01-29 20:52:25,355 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2024-01-29 20:52:25,355 WARNING Node 1 connection failed -- refreshing metadata
+2024-01-29 20:52:26,260 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-01-29 20:52:26,261 ERROR Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 111. Disconnecting.
+2024-01-29 20:52:26,261 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2024-01-29 20:52:26,261 WARNING Node 1 connection failed -- refreshing metadata
+2024-01-29 20:52:27,217 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-01-29 20:52:27,217 ERROR Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 111. Disconnecting.
+2024-01-29 20:52:27,217 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2024-01-29 20:52:27,217 WARNING Node 1 connection failed -- refreshing metadata
+2024-01-29 20:52:28,223 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-01-29 20:52:28,224 ERROR Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 111. Disconnecting.
+2024-01-29 20:52:28,224 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2024-01-29 20:52:28,224 WARNING Node 1 connection failed -- refreshing metadata
+2024-01-29 20:52:29,481 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-01-29 20:52:29,481 ERROR Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 111. Disconnecting.
+2024-01-29 20:52:29,481 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2024-01-29 20:52:29,482 WARNING Node 1 connection failed -- refreshing metadata
+2024-01-29 20:52:30,488 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-01-29 20:52:30,488 ERROR Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 111. Disconnecting.
+2024-01-29 20:52:30,488 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2024-01-29 20:52:30,488 WARNING Node 1 connection failed -- refreshing metadata
+2024-01-29 20:52:31,343 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-01-29 20:52:31,344 ERROR Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 111. Disconnecting.
+2024-01-29 20:52:31,344 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2024-01-29 20:52:31,344 WARNING Node 1 connection failed -- refreshing metadata
+2024-01-29 20:52:32,601 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-01-29 20:52:32,601 ERROR Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 111. Disconnecting.
+2024-01-29 20:52:32,602 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2024-01-29 20:52:32,602 WARNING Node 1 connection failed -- refreshing metadata
+2024-01-29 20:52:33,658 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-01-29 20:52:33,658 ERROR Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 111. Disconnecting.
+2024-01-29 20:52:33,658 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2024-01-29 20:52:33,658 WARNING Node 1 connection failed -- refreshing metadata
+2024-01-29 20:52:34,714 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-01-29 20:52:34,714 ERROR Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 111. Disconnecting.
+2024-01-29 20:52:34,715 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2024-01-29 20:52:34,715 WARNING Node 1 connection failed -- refreshing metadata
+2024-01-29 20:52:35,620 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-01-29 20:52:35,620 ERROR Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 111. Disconnecting.
+2024-01-29 20:52:35,621 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2024-01-29 20:52:35,621 WARNING Node 1 connection failed -- refreshing metadata
+2024-01-29 20:52:36,526 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-01-29 20:52:36,526 ERROR Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 111. Disconnecting.
+2024-01-29 20:52:36,527 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2024-01-29 20:52:36,527 WARNING Node 1 connection failed -- refreshing metadata
+2024-01-29 20:52:37,532 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-01-29 20:52:37,533 ERROR Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 111. Disconnecting.
+2024-01-29 20:52:37,533 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2024-01-29 20:52:37,533 WARNING Node 1 connection failed -- refreshing metadata
+2024-01-29 20:52:38,740 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-01-29 20:52:38,740 ERROR Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 111. Disconnecting.
+2024-01-29 20:52:38,741 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2024-01-29 20:52:38,741 WARNING Node 1 connection failed -- refreshing metadata
+2024-01-29 20:52:39,696 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-01-29 20:52:39,696 ERROR Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 111. Disconnecting.
+2024-01-29 20:52:39,697 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2024-01-29 20:52:39,697 WARNING Node 1 connection failed -- refreshing metadata
+2024-01-29 20:52:40,904 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-01-29 20:52:40,904 ERROR Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 111. Disconnecting.
+2024-01-29 20:52:40,904 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2024-01-29 20:52:40,904 WARNING Node 1 connection failed -- refreshing metadata
+2024-01-29 20:52:42,061 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-01-29 20:52:42,061 ERROR Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 111. Disconnecting.
+2024-01-29 20:52:42,061 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2024-01-29 20:52:42,061 WARNING Node 1 connection failed -- refreshing metadata
+2024-01-29 20:52:43,067 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-01-29 20:52:43,068 ERROR Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 111. Disconnecting.
+2024-01-29 20:52:43,068 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2024-01-29 20:52:43,068 WARNING Node 1 connection failed -- refreshing metadata
+2024-01-29 20:52:44,073 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-01-29 20:52:44,074 ERROR Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 111. Disconnecting.
+2024-01-29 20:52:44,074 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2024-01-29 20:52:44,074 WARNING Node 1 connection failed -- refreshing metadata
+2024-01-29 20:52:45,030 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-01-29 20:52:45,030 ERROR Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 111. Disconnecting.
+2024-01-29 20:52:45,030 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2024-01-29 20:52:45,030 WARNING Node 1 connection failed -- refreshing metadata
+2024-01-29 20:52:46,137 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-01-29 20:52:46,137 ERROR Connect attempt to <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 111. Disconnecting.
+2024-01-29 20:52:46,137 INFO <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2024-01-29 20:52:46,137 WARNING Node 1 connection failed -- refreshing metadata
+2024-01-29 20:52:47,164 INFO Stopping heartbeat thread
+2024-01-29 20:58:56,795 INFO <BrokerConnection node_id=bootstrap-0 host=3.82.243.106:9093 <connecting> [IPv4 ('3.82.243.106', 9093)]>: connecting to 3.82.243.106:9093 [('3.82.243.106', 9093) IPv4]
+2024-01-29 20:58:56,795 INFO Probing node bootstrap-0 broker version
+2024-01-29 20:58:56,800 ERROR Connect attempt to <BrokerConnection node_id=bootstrap-0 host=3.82.243.106:9093 <connecting> [IPv4 ('3.82.243.106', 9093)]> returned error 111. Disconnecting.
+2024-01-29 20:58:56,800 INFO <BrokerConnection node_id=bootstrap-0 host=3.82.243.106:9093 <connecting> [IPv4 ('3.82.243.106', 9093)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2024-01-29 20:58:56,845 INFO <BrokerConnection node_id=bootstrap-0 host=3.82.243.106:9093 <connecting> [IPv4 ('3.82.243.106', 9093)]>: connecting to 3.82.243.106:9093 [('3.82.243.106', 9093) IPv4]
+2024-01-29 20:58:56,853 ERROR Connect attempt to <BrokerConnection node_id=bootstrap-0 host=3.82.243.106:9093 <connecting> [IPv4 ('3.82.243.106', 9093)]> returned error 111. Disconnecting.
+2024-01-29 20:58:56,853 INFO <BrokerConnection node_id=bootstrap-0 host=3.82.243.106:9093 <connecting> [IPv4 ('3.82.243.106', 9093)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2024-01-29 20:59:31,429 INFO <BrokerConnection node_id=bootstrap-0 host=3.82.243.106:9093 <connecting> [IPv4 ('3.82.243.106', 9093)]>: connecting to 3.82.243.106:9093 [('3.82.243.106', 9093) IPv4]
+2024-01-29 20:59:31,429 INFO Probing node bootstrap-0 broker version
+2024-01-29 20:59:31,429 ERROR Connect attempt to <BrokerConnection node_id=bootstrap-0 host=3.82.243.106:9093 <connecting> [IPv4 ('3.82.243.106', 9093)]> returned error 111. Disconnecting.
+2024-01-29 20:59:31,430 INFO <BrokerConnection node_id=bootstrap-0 host=3.82.243.106:9093 <connecting> [IPv4 ('3.82.243.106', 9093)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2024-01-29 20:59:31,479 INFO <BrokerConnection node_id=bootstrap-0 host=3.82.243.106:9093 <connecting> [IPv4 ('3.82.243.106', 9093)]>: connecting to 3.82.243.106:9093 [('3.82.243.106', 9093) IPv4]
+2024-01-29 20:59:31,480 ERROR Connect attempt to <BrokerConnection node_id=bootstrap-0 host=3.82.243.106:9093 <connecting> [IPv4 ('3.82.243.106', 9093)]> returned error 111. Disconnecting.
+2024-01-29 20:59:31,480 INFO <BrokerConnection node_id=bootstrap-0 host=3.82.243.106:9093 <connecting> [IPv4 ('3.82.243.106', 9093)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2024-01-29 21:09:52,701 INFO <BrokerConnection node_id=bootstrap-0 host=3.82.243.106:9093 <connecting> [IPv4 ('3.82.243.106', 9093)]>: connecting to 3.82.243.106:9093 [('3.82.243.106', 9093) IPv4]
+2024-01-29 21:09:52,701 INFO Probing node bootstrap-0 broker version
+2024-01-29 21:09:52,702 ERROR Connect attempt to <BrokerConnection node_id=bootstrap-0 host=3.82.243.106:9093 <connecting> [IPv4 ('3.82.243.106', 9093)]> returned error 111. Disconnecting.
+2024-01-29 21:09:52,702 INFO <BrokerConnection node_id=bootstrap-0 host=3.82.243.106:9093 <connecting> [IPv4 ('3.82.243.106', 9093)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2024-01-29 21:09:52,751 INFO <BrokerConnection node_id=bootstrap-0 host=3.82.243.106:9093 <connecting> [IPv4 ('3.82.243.106', 9093)]>: connecting to 3.82.243.106:9093 [('3.82.243.106', 9093) IPv4]
+2024-01-29 21:09:52,753 ERROR Connect attempt to <BrokerConnection node_id=bootstrap-0 host=3.82.243.106:9093 <connecting> [IPv4 ('3.82.243.106', 9093)]> returned error 111. Disconnecting.
+2024-01-29 21:09:52,753 INFO <BrokerConnection node_id=bootstrap-0 host=3.82.243.106:9093 <connecting> [IPv4 ('3.82.243.106', 9093)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2024-01-29 21:10:49,634 INFO <BrokerConnection node_id=bootstrap-0 host=3.82.243.106:9093 <connecting> [IPv4 ('3.82.243.106', 9093)]>: connecting to 3.82.243.106:9093 [('3.82.243.106', 9093) IPv4]
+2024-01-29 21:10:49,635 INFO Probing node bootstrap-0 broker version
+2024-01-29 21:10:49,635 INFO <BrokerConnection node_id=bootstrap-0 host=3.82.243.106:9093 <connecting> [IPv4 ('3.82.243.106', 9093)]>: Connection complete.
+2024-01-29 21:10:49,746 INFO Broker version identified as 2.5.0
+2024-01-29 21:10:49,746 INFO Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-01-29 21:10:49,747 INFO Updating subscribed topics to: ('FirstTopic',)
+2024-01-29 21:10:50,995 INFO Group coordinator for my-consumer-group is BrokerMetadata(nodeId='coordinator-1', host='3.82.243.106', port=9093, rack=None)
+2024-01-29 21:10:50,996 INFO Discovered coordinator coordinator-1 for group my-consumer-group
+2024-01-29 21:10:50,996 INFO Starting new heartbeat thread
+2024-01-29 21:10:50,996 INFO Revoking previously assigned partitions set() for group my-consumer-group
+2024-01-29 21:10:50,997 INFO <BrokerConnection node_id=coordinator-1 host=3.82.243.106:9093 <connecting> [IPv4 ('3.82.243.106', 9093)]>: connecting to 3.82.243.106:9093 [('3.82.243.106', 9093) IPv4]
+2024-01-29 21:10:51,097 INFO <BrokerConnection node_id=coordinator-1 host=3.82.243.106:9093 <connecting> [IPv4 ('3.82.243.106', 9093)]>: Connection complete.
+2024-01-29 21:10:51,098 INFO <BrokerConnection node_id=bootstrap-0 host=3.82.243.106:9093 <connected> [IPv4 ('3.82.243.106', 9093)]>: Closing connection. 
+2024-01-29 21:10:51,198 INFO (Re-)joining group my-consumer-group
+2024-01-29 21:10:51,199 INFO <BrokerConnection node_id=bootstrap-0 host=3.82.243.106:9093 <connecting> [IPv4 ('3.82.243.106', 9093)]>: connecting to 3.82.243.106:9093 [('3.82.243.106', 9093) IPv4]
+2024-01-29 21:10:51,200 INFO <BrokerConnection node_id=bootstrap-0 host=3.82.243.106:9093 <connecting> [IPv4 ('3.82.243.106', 9093)]>: Connection complete.
+2024-01-29 21:10:54,232 INFO Elected group leader -- performing partition assignments using range
+2024-01-29 21:10:54,233 INFO <BrokerConnection node_id=1 host=3.82.243.106:9093 <connecting> [IPv4 ('3.82.243.106', 9093)]>: connecting to 3.82.243.106:9093 [('3.82.243.106', 9093) IPv4]
+2024-01-29 21:10:54,235 INFO <BrokerConnection node_id=1 host=3.82.243.106:9093 <connecting> [IPv4 ('3.82.243.106', 9093)]>: Connection complete.
+2024-01-29 21:10:54,235 INFO <BrokerConnection node_id=bootstrap-0 host=3.82.243.106:9093 <connected> [IPv4 ('3.82.243.106', 9093)]>: Closing connection. 
+2024-01-29 21:10:54,290 INFO Successfully joined group my-consumer-group with generation 1
+2024-01-29 21:10:54,291 INFO Updated partition assignment: [TopicPartition(topic='FirstTopic', partition=0)]
+2024-01-29 21:10:54,291 INFO Setting newly assigned partitions {TopicPartition(topic='FirstTopic', partition=0)} for group my-consumer-group
+2024-01-29 21:11:28,560 INFO Consumed record with offset: 0
+2024-01-29 21:18:56,081 INFO <BrokerConnection node_id=bootstrap-0 host=3.82.243.106:9093 <connecting> [IPv4 ('3.82.243.106', 9093)]>: connecting to 3.82.243.106:9093 [('3.82.243.106', 9093) IPv4]
+2024-01-29 21:18:56,081 INFO Probing node bootstrap-0 broker version
+2024-01-29 21:18:56,082 INFO <BrokerConnection node_id=bootstrap-0 host=3.82.243.106:9093 <connecting> [IPv4 ('3.82.243.106', 9093)]>: Connection complete.
+2024-01-29 21:18:56,187 INFO Broker version identified as 2.5.0
+2024-01-29 21:18:56,188 INFO Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-01-29 21:18:56,188 INFO Updating subscribed topics to: ('FirstTopic',)
+2024-01-29 21:18:56,190 INFO Group coordinator for my-consumer-group is BrokerMetadata(nodeId='coordinator-1', host='3.82.243.106', port=9093, rack=None)
+2024-01-29 21:18:56,190 INFO Discovered coordinator coordinator-1 for group my-consumer-group
+2024-01-29 21:18:56,190 INFO Starting new heartbeat thread
+2024-01-29 21:18:56,191 INFO Revoking previously assigned partitions set() for group my-consumer-group
+2024-01-29 21:18:56,191 INFO <BrokerConnection node_id=coordinator-1 host=3.82.243.106:9093 <connecting> [IPv4 ('3.82.243.106', 9093)]>: connecting to 3.82.243.106:9093 [('3.82.243.106', 9093) IPv4]
+2024-01-29 21:18:56,292 INFO <BrokerConnection node_id=coordinator-1 host=3.82.243.106:9093 <connecting> [IPv4 ('3.82.243.106', 9093)]>: Connection complete.
+2024-01-29 21:18:56,292 INFO <BrokerConnection node_id=bootstrap-0 host=3.82.243.106:9093 <connected> [IPv4 ('3.82.243.106', 9093)]>: Closing connection. 
+2024-01-29 21:18:56,393 INFO (Re-)joining group my-consumer-group
+2024-01-29 21:18:59,398 INFO Elected group leader -- performing partition assignments using range
+2024-01-29 21:18:59,399 INFO <BrokerConnection node_id=1 host=3.82.243.106:9093 <connecting> [IPv4 ('3.82.243.106', 9093)]>: connecting to 3.82.243.106:9093 [('3.82.243.106', 9093) IPv4]
+2024-01-29 21:18:59,400 INFO <BrokerConnection node_id=1 host=3.82.243.106:9093 <connecting> [IPv4 ('3.82.243.106', 9093)]>: Connection complete.
+2024-01-29 21:18:59,403 INFO Successfully joined group my-consumer-group with generation 3
+2024-01-29 21:18:59,404 INFO Updated partition assignment: [TopicPartition(topic='FirstTopic', partition=0)]
+2024-01-29 21:18:59,404 INFO Setting newly assigned partitions {TopicPartition(topic='FirstTopic', partition=0)} for group my-consumer-group
+2024-01-29 21:18:59,409 INFO Consumed record with offset: 0
+2024-01-29 21:18:59,616 INFO Upload response: <Response [201]>
+2024-01-29 21:18:59,616 INFO Consumed record with offset: 1
+2024-01-29 21:18:59,628 INFO Upload response: <Response [201]>
+2024-01-29 21:18:59,629 INFO Consumed record with offset: 2
+2024-01-29 21:18:59,637 INFO Upload response: <Response [201]>
+2024-01-29 21:18:59,637 INFO Consumed record with offset: 3
+2024-01-29 21:18:59,645 INFO Upload response: <Response [201]>
+2024-01-29 21:18:59,646 INFO Consumed record with offset: 4
+2024-01-29 21:18:59,658 INFO Upload response: <Response [201]>
+2024-01-29 21:18:59,658 INFO Consumed record with offset: 5
+2024-01-29 21:18:59,667 INFO Upload response: <Response [201]>
+2024-01-29 21:18:59,667 INFO Consumed record with offset: 6
+2024-01-29 21:18:59,675 INFO Upload response: <Response [201]>
+2024-01-29 21:18:59,675 INFO Consumed record with offset: 7
+2024-01-29 21:18:59,683 INFO Upload response: <Response [201]>
+2024-01-29 21:18:59,684 INFO Consumed record with offset: 8
+2024-01-29 21:18:59,691 INFO Upload response: <Response [201]>
+2024-01-29 21:18:59,692 INFO Consumed record with offset: 9
+2024-01-29 21:18:59,699 INFO Upload response: <Response [201]>
+2024-01-29 21:18:59,699 INFO Consumed record with offset: 10
+2024-01-29 21:18:59,707 INFO Upload response: <Response [201]>
+2024-01-29 21:18:59,708 INFO Consumed record with offset: 11
+2024-01-29 21:18:59,716 INFO Upload response: <Response [201]>
+2024-01-29 21:18:59,716 INFO Consumed record with offset: 12
+2024-01-29 21:18:59,726 INFO Upload response: <Response [201]>
+2024-01-29 21:18:59,726 INFO Consumed record with offset: 13
+2024-01-29 21:18:59,734 INFO Upload response: <Response [201]>
+2024-01-29 21:18:59,734 INFO Consumed record with offset: 14
+2024-01-29 21:18:59,741 INFO Upload response: <Response [201]>
+2024-01-29 21:18:59,742 INFO Consumed record with offset: 15
+2024-01-29 21:18:59,749 INFO Upload response: <Response [201]>
+2024-01-29 21:18:59,749 INFO Consumed record with offset: 16
+2024-01-29 21:18:59,757 INFO Upload response: <Response [201]>
+2024-01-29 21:18:59,758 INFO Consumed record with offset: 17
+2024-01-29 21:18:59,766 INFO Upload response: <Response [201]>
+2024-01-29 21:18:59,766 INFO Consumed record with offset: 18
+2024-01-29 21:18:59,775 INFO Upload response: <Response [201]>
+2024-01-29 21:18:59,775 INFO Consumed record with offset: 19
+2024-01-29 21:18:59,783 INFO Upload response: <Response [201]>
+2024-01-29 21:19:10,630 INFO Consumed record with offset: 20
+2024-01-29 21:19:10,641 INFO Upload response: <Response [201]>
+2024-01-29 21:19:12,632 INFO Consumed record with offset: 21
+2024-01-29 21:19:12,653 INFO Upload response: <Response [201]>
+2024-01-29 21:19:14,634 INFO Consumed record with offset: 22
+2024-01-29 21:19:14,647 INFO Upload response: <Response [201]>
+2024-01-29 21:19:16,639 INFO Consumed record with offset: 23
+2024-01-29 21:19:16,651 INFO Upload response: <Response [201]>
+2024-01-29 21:19:18,639 INFO Consumed record with offset: 24
+2024-01-29 21:19:18,650 INFO Upload response: <Response [201]>
+2024-01-29 21:19:20,642 INFO Consumed record with offset: 25
+2024-01-29 21:19:20,653 INFO Upload response: <Response [201]>
+2024-01-29 21:19:22,646 INFO Consumed record with offset: 26
+2024-01-29 21:19:22,658 INFO Upload response: <Response [201]>
+2024-01-29 21:19:24,648 INFO Consumed record with offset: 27
+2024-01-29 21:19:24,660 INFO Upload response: <Response [201]>
+2024-01-29 21:19:26,652 INFO Consumed record with offset: 28
+2024-01-29 21:19:26,662 INFO Upload response: <Response [201]>
+2024-01-29 21:19:28,653 INFO Consumed record with offset: 29
+2024-01-29 21:19:28,666 INFO Upload response: <Response [201]>
+2024-01-29 21:19:30,656 INFO Consumed record with offset: 30
+2024-01-29 21:19:30,666 INFO Upload response: <Response [201]>
+2024-01-29 21:19:32,658 INFO Consumed record with offset: 31
+2024-01-29 21:19:32,669 INFO Upload response: <Response [201]>
+2024-01-29 21:19:34,661 INFO Consumed record with offset: 32
+2024-01-29 21:19:34,674 INFO Upload response: <Response [201]>
+2024-01-29 21:19:36,664 INFO Consumed record with offset: 33
+2024-01-29 21:19:36,674 INFO Upload response: <Response [201]>
+2024-01-29 21:19:38,666 INFO Consumed record with offset: 34
+2024-01-29 21:19:38,678 INFO Upload response: <Response [201]>
+2024-01-29 21:19:40,668 INFO Consumed record with offset: 35
+2024-01-29 21:19:40,677 INFO Upload response: <Response [201]>
+2024-01-29 21:19:42,669 INFO Consumed record with offset: 36
+2024-01-29 21:19:42,679 INFO Upload response: <Response [201]>
+2024-01-29 21:19:44,672 INFO Consumed record with offset: 37
+2024-01-29 21:19:44,681 INFO Upload response: <Response [201]>
+2024-01-29 21:19:46,675 INFO Consumed record with offset: 38
+2024-01-29 21:19:46,685 INFO Upload response: <Response [201]>
+2024-01-29 21:19:48,677 INFO Consumed record with offset: 39
+2024-01-29 21:19:48,686 INFO Upload response: <Response [201]>
+2024-01-29 21:21:06,583 INFO Consumed record with offset: 40
+2024-01-29 21:21:06,593 INFO Upload response: <Response [201]>
+2024-01-29 21:21:08,584 INFO Consumed record with offset: 41
+2024-01-29 21:21:08,593 INFO Upload response: <Response [201]>
+2024-01-29 21:21:10,587 INFO Consumed record with offset: 42
+2024-01-29 21:21:10,596 INFO Upload response: <Response [201]>
+2024-01-29 21:21:12,588 INFO Consumed record with offset: 43
+2024-01-29 21:21:12,597 INFO Upload response: <Response [201]>
+2024-01-29 21:21:14,691 INFO Consumed record with offset: 44
+2024-01-29 21:21:14,701 INFO Upload response: <Response [201]>
+2024-01-29 21:21:16,594 INFO Consumed record with offset: 45
+2024-01-29 21:21:16,603 INFO Upload response: <Response [201]>
+2024-01-29 21:21:18,597 INFO Consumed record with offset: 46
+2024-01-29 21:21:18,607 INFO Upload response: <Response [201]>
+2024-01-29 21:21:20,600 INFO Consumed record with offset: 47
+2024-01-29 21:21:20,609 INFO Upload response: <Response [201]>
+2024-01-29 21:21:22,607 INFO Consumed record with offset: 48
+2024-01-29 21:21:22,616 INFO Upload response: <Response [201]>
+2024-01-29 21:21:24,607 INFO Consumed record with offset: 49
+2024-01-29 21:21:24,616 INFO Upload response: <Response [201]>
+2024-01-29 21:21:26,610 INFO Consumed record with offset: 50
+2024-01-29 21:21:26,619 INFO Upload response: <Response [201]>
+2024-01-29 21:21:28,613 INFO Consumed record with offset: 51
+2024-01-29 21:21:28,623 INFO Upload response: <Response [201]>
+2024-01-29 21:21:30,616 INFO Consumed record with offset: 52
+2024-01-29 21:21:30,642 INFO Upload response: <Response [201]>
+2024-01-29 21:21:32,617 INFO Consumed record with offset: 53
+2024-01-29 21:21:32,626 INFO Upload response: <Response [201]>
+2024-01-29 21:21:34,619 INFO Consumed record with offset: 54
+2024-01-29 21:21:34,629 INFO Upload response: <Response [201]>
+2024-01-29 21:21:36,634 INFO Consumed record with offset: 55
+2024-01-29 21:21:36,646 INFO Upload response: <Response [201]>
+2024-01-29 21:21:38,624 INFO Consumed record with offset: 56
+2024-01-29 21:21:38,635 INFO Upload response: <Response [201]>
+2024-01-29 21:21:40,627 INFO Consumed record with offset: 57
+2024-01-29 21:21:40,636 INFO Upload response: <Response [201]>
+2024-01-29 21:21:42,630 INFO Consumed record with offset: 58
+2024-01-29 21:21:42,639 INFO Upload response: <Response [201]>
+2024-01-29 21:21:44,633 INFO Consumed record with offset: 59
+2024-01-29 21:21:44,643 INFO Upload response: <Response [201]>
+2024-01-29 21:21:46,636 INFO Consumed record with offset: 60
+2024-01-29 21:21:46,648 INFO Upload response: <Response [201]>
+2024-01-29 21:21:48,638 INFO Consumed record with offset: 61
+2024-01-29 21:21:48,647 INFO Upload response: <Response [201]>
+2024-01-29 21:21:50,640 INFO Consumed record with offset: 62
+2024-01-29 21:21:50,651 INFO Upload response: <Response [201]>
+2024-01-29 21:21:52,643 INFO Consumed record with offset: 63
+2024-01-29 21:21:52,656 INFO Upload response: <Response [201]>
+2024-01-29 21:21:54,646 INFO Consumed record with offset: 64
+2024-01-29 21:21:54,656 INFO Upload response: <Response [201]>
+2024-01-29 21:21:56,647 INFO Consumed record with offset: 65
+2024-01-29 21:21:56,660 INFO Upload response: <Response [201]>
+2024-01-29 21:21:58,651 INFO Consumed record with offset: 66
+2024-01-29 21:21:58,662 INFO Upload response: <Response [201]>
+2024-01-29 21:22:00,654 INFO Consumed record with offset: 67
+2024-01-29 21:22:00,664 INFO Upload response: <Response [201]>
+2024-01-29 21:22:02,657 INFO Consumed record with offset: 68
+2024-01-29 21:22:02,668 INFO Upload response: <Response [201]>
+2024-01-29 21:22:04,658 INFO Consumed record with offset: 69
+2024-01-29 21:22:04,667 INFO Upload response: <Response [201]>
+2024-01-29 21:22:06,660 INFO Consumed record with offset: 70
+2024-01-29 21:22:06,669 INFO Upload response: <Response [201]>
+2024-01-29 21:22:08,663 INFO Consumed record with offset: 71
+2024-01-29 21:22:08,672 INFO Upload response: <Response [201]>
+2024-01-29 21:22:10,666 INFO Consumed record with offset: 72
+2024-01-29 21:22:10,677 INFO Upload response: <Response [201]>
+2024-01-29 21:22:12,668 INFO Consumed record with offset: 73
+2024-01-29 21:22:12,677 INFO Upload response: <Response [201]>
+2024-01-29 21:22:14,668 INFO Consumed record with offset: 74
+2024-01-29 21:22:14,677 INFO Upload response: <Response [201]>
+2024-01-29 21:22:16,671 INFO Consumed record with offset: 75
+2024-01-29 21:22:16,684 INFO Upload response: <Response [201]>
+2024-01-29 21:22:18,674 INFO Consumed record with offset: 76
+2024-01-29 21:22:18,684 INFO Upload response: <Response [201]>
+2024-01-29 21:22:20,677 INFO Consumed record with offset: 77
+2024-01-29 21:22:20,686 INFO Upload response: <Response [201]>
+2024-01-29 21:22:22,681 INFO Consumed record with offset: 78
+2024-01-29 21:22:22,691 INFO Upload response: <Response [201]>
+2024-01-29 21:22:24,682 INFO Consumed record with offset: 79
+2024-01-29 21:22:24,691 INFO Upload response: <Response [201]>
+2024-01-29 21:22:26,685 INFO Consumed record with offset: 80
+2024-01-29 21:22:26,695 INFO Upload response: <Response [201]>
+2024-01-29 21:22:28,687 INFO Consumed record with offset: 81
+2024-01-29 21:22:28,696 INFO Upload response: <Response [201]>
+2024-01-29 21:22:30,688 INFO Consumed record with offset: 82
+2024-01-29 21:22:30,698 INFO Upload response: <Response [201]>
+2024-01-29 21:22:32,691 INFO Consumed record with offset: 83
+2024-01-29 21:22:32,702 INFO Upload response: <Response [201]>
+2024-01-29 21:22:34,694 INFO Consumed record with offset: 84
+2024-01-29 21:22:34,705 INFO Upload response: <Response [201]>
+2024-01-29 21:22:36,697 INFO Consumed record with offset: 85
+2024-01-29 21:22:36,706 INFO Upload response: <Response [201]>
+2024-01-29 21:22:38,701 INFO Consumed record with offset: 86
+2024-01-29 21:22:38,712 INFO Upload response: <Response [201]>
+2024-01-29 21:22:40,705 INFO Consumed record with offset: 87
+2024-01-29 21:22:40,715 INFO Upload response: <Response [201]>
+2024-01-29 21:22:42,704 INFO Consumed record with offset: 88
+2024-01-29 21:22:42,713 INFO Upload response: <Response [201]>
+2024-01-29 21:22:44,707 INFO Consumed record with offset: 89
+2024-01-29 21:22:44,716 INFO Upload response: <Response [201]>
+2024-01-29 21:22:46,810 INFO Consumed record with offset: 90
+2024-01-29 21:22:46,825 INFO Upload response: <Response [201]>
+2024-01-29 21:22:48,713 INFO Consumed record with offset: 91
+2024-01-29 21:22:48,723 INFO Upload response: <Response [201]>
+2024-01-29 21:22:50,716 INFO Consumed record with offset: 92
+2024-01-29 21:22:50,728 INFO Upload response: <Response [201]>
+2024-01-29 21:22:52,717 INFO Consumed record with offset: 93
+2024-01-29 21:22:52,728 INFO Upload response: <Response [201]>
+2024-01-29 21:22:54,720 INFO Consumed record with offset: 94
+2024-01-29 21:22:54,729 INFO Upload response: <Response [201]>
+2024-01-29 21:22:56,723 INFO Consumed record with offset: 95
+2024-01-29 21:22:56,733 INFO Upload response: <Response [201]>
+2024-01-29 21:22:58,726 INFO Consumed record with offset: 96
+2024-01-29 21:22:58,736 INFO Upload response: <Response [201]>
+2024-01-29 21:23:00,728 INFO Consumed record with offset: 97
+2024-01-29 21:23:00,737 INFO Upload response: <Response [201]>
+2024-01-29 21:23:02,730 INFO Consumed record with offset: 98
+2024-01-29 21:23:02,740 INFO Upload response: <Response [201]>
+2024-01-29 21:23:04,733 INFO Consumed record with offset: 99
+2024-01-29 21:23:04,749 INFO Upload response: <Response [201]>
+2024-01-29 21:23:06,736 INFO Consumed record with offset: 100
+2024-01-29 21:23:06,746 INFO Upload response: <Response [201]>
+2024-01-29 21:23:08,738 INFO Consumed record with offset: 101
+2024-01-29 21:23:08,747 INFO Upload response: <Response [201]>
+2024-01-29 21:23:10,741 INFO Consumed record with offset: 102
+2024-01-29 21:23:10,753 INFO Upload response: <Response [201]>
+2024-01-29 21:23:12,747 INFO Consumed record with offset: 103
+2024-01-29 21:23:12,757 INFO Upload response: <Response [201]>
+2024-01-29 21:23:14,748 INFO Consumed record with offset: 104
+2024-01-29 21:23:14,757 INFO Upload response: <Response [201]>
+2024-01-29 21:23:16,750 INFO Consumed record with offset: 105
+2024-01-29 21:23:16,764 INFO Upload response: <Response [201]>
+2024-01-29 21:23:18,753 INFO Consumed record with offset: 106
+2024-01-29 21:23:18,762 INFO Upload response: <Response [201]>
+2024-01-29 21:23:20,756 INFO Consumed record with offset: 107
+2024-01-29 21:23:20,765 INFO Upload response: <Response [201]>
+2024-01-29 21:23:22,758 INFO Consumed record with offset: 108
+2024-01-29 21:23:22,769 INFO Upload response: <Response [201]>
+2024-01-29 21:23:24,762 INFO Consumed record with offset: 109
+2024-01-29 21:23:24,777 INFO Upload response: <Response [201]>
+2024-01-29 21:23:26,764 INFO Consumed record with offset: 110
+2024-01-29 21:23:26,773 INFO Upload response: <Response [201]>
+2024-01-29 21:23:28,766 INFO Consumed record with offset: 111
+2024-01-29 21:23:28,775 INFO Upload response: <Response [201]>
+2024-01-29 21:23:30,770 INFO Consumed record with offset: 112
+2024-01-29 21:23:30,779 INFO Upload response: <Response [201]>
+2024-01-29 21:23:32,772 INFO Consumed record with offset: 113
+2024-01-29 21:23:32,781 INFO Upload response: <Response [201]>
+2024-01-29 21:23:34,776 INFO Consumed record with offset: 114
+2024-01-29 21:23:34,785 INFO Upload response: <Response [201]>
+2024-01-29 21:23:36,777 INFO Consumed record with offset: 115
+2024-01-29 21:23:36,787 INFO Upload response: <Response [201]>
+2024-01-29 21:23:38,780 INFO Consumed record with offset: 116
+2024-01-29 21:23:38,791 INFO Upload response: <Response [201]>
+2024-01-29 21:23:40,784 INFO Consumed record with offset: 117
+2024-01-29 21:23:40,793 INFO Upload response: <Response [201]>
+2024-01-29 21:23:42,804 INFO Consumed record with offset: 118
+2024-01-29 21:23:42,813 INFO Upload response: <Response [201]>
+2024-01-29 21:23:44,787 INFO Consumed record with offset: 119
+2024-01-29 21:23:44,799 INFO Upload response: <Response [201]>
+2024-01-29 21:23:46,790 INFO Consumed record with offset: 120
+2024-01-29 21:23:46,800 INFO Upload response: <Response [201]>
+2024-01-29 21:23:48,793 INFO Consumed record with offset: 121
+2024-01-29 21:23:48,802 INFO Upload response: <Response [201]>
+2024-01-29 21:23:50,796 INFO Consumed record with offset: 122
+2024-01-29 21:23:50,809 INFO Upload response: <Response [201]>
+2024-01-29 21:23:52,797 INFO Consumed record with offset: 123
+2024-01-29 21:23:52,809 INFO Upload response: <Response [201]>
+2024-01-29 21:23:54,800 INFO Consumed record with offset: 124
+2024-01-29 21:23:54,809 INFO Upload response: <Response [201]>
+2024-01-29 21:23:56,804 INFO Consumed record with offset: 125
+2024-01-29 21:23:56,816 INFO Upload response: <Response [201]>
+2024-01-29 21:23:58,804 INFO Consumed record with offset: 126
+2024-01-29 21:23:58,816 INFO Upload response: <Response [201]>
+2024-01-29 21:24:00,808 INFO Consumed record with offset: 127
+2024-01-29 21:24:00,818 INFO Upload response: <Response [201]>
+2024-01-29 21:24:02,810 INFO Consumed record with offset: 128
+2024-01-29 21:24:02,819 INFO Upload response: <Response [201]>
+2024-01-29 21:24:04,814 INFO Consumed record with offset: 129
+2024-01-29 21:24:04,825 INFO Upload response: <Response [201]>
+2024-01-29 21:24:06,816 INFO Consumed record with offset: 130
+2024-01-29 21:24:06,824 INFO Upload response: <Response [201]>
+2024-01-29 21:24:08,817 INFO Consumed record with offset: 131
+2024-01-29 21:24:08,828 INFO Upload response: <Response [201]>
+2024-01-29 21:24:10,822 INFO Consumed record with offset: 132
+2024-01-29 21:24:10,834 INFO Upload response: <Response [201]>
+2024-01-29 21:24:12,824 INFO Consumed record with offset: 133
+2024-01-29 21:24:12,833 INFO Upload response: <Response [201]>
+2024-01-29 21:24:14,826 INFO Consumed record with offset: 134
+2024-01-29 21:24:14,837 INFO Upload response: <Response [201]>
+2024-01-29 21:24:16,828 INFO Consumed record with offset: 135
+2024-01-29 21:24:16,836 INFO Upload response: <Response [201]>
+2024-01-29 21:24:18,830 INFO Consumed record with offset: 136
+2024-01-29 21:24:18,839 INFO Upload response: <Response [201]>
+2024-01-29 21:24:20,833 INFO Consumed record with offset: 137
+2024-01-29 21:24:20,843 INFO Upload response: <Response [201]>
+2024-01-29 21:24:22,836 INFO Consumed record with offset: 138
+2024-01-29 21:24:22,844 INFO Upload response: <Response [201]>
+2024-01-29 21:24:24,839 INFO Consumed record with offset: 139
+2024-01-29 21:24:24,848 INFO Upload response: <Response [201]>
+2024-01-29 21:24:26,841 INFO Consumed record with offset: 140
+2024-01-29 21:24:26,851 INFO Upload response: <Response [201]>
+2024-01-29 21:24:28,844 INFO Consumed record with offset: 141
+2024-01-29 21:24:28,853 INFO Upload response: <Response [201]>
+2024-01-29 21:24:30,847 INFO Consumed record with offset: 142
+2024-01-29 21:24:30,863 INFO Upload response: <Response [201]>
+2024-01-29 21:24:32,851 INFO Consumed record with offset: 143
+2024-01-29 21:24:32,860 INFO Upload response: <Response [201]>
+2024-01-29 21:24:34,854 INFO Consumed record with offset: 144
+2024-01-29 21:24:34,864 INFO Upload response: <Response [201]>
+2024-01-29 21:24:36,858 INFO Consumed record with offset: 145
+2024-01-29 21:24:36,866 INFO Upload response: <Response [201]>
+2024-01-29 21:24:38,858 INFO Consumed record with offset: 146
+2024-01-29 21:24:38,867 INFO Upload response: <Response [201]>
+2024-01-29 21:24:40,861 INFO Consumed record with offset: 147
+2024-01-29 21:24:40,871 INFO Upload response: <Response [201]>
+2024-01-29 21:24:42,864 INFO Consumed record with offset: 148
+2024-01-29 21:24:42,873 INFO Upload response: <Response [201]>
+2024-01-29 21:24:44,868 INFO Consumed record with offset: 149
+2024-01-29 21:24:44,880 INFO Upload response: <Response [201]>
+2024-01-29 21:24:46,871 INFO Consumed record with offset: 150
+2024-01-29 21:24:46,880 INFO Upload response: <Response [201]>
+2024-01-29 21:24:48,873 INFO Consumed record with offset: 151
+2024-01-29 21:24:48,886 INFO Upload response: <Response [201]>
+2024-01-29 21:24:50,875 INFO Consumed record with offset: 152
+2024-01-29 21:24:50,884 INFO Upload response: <Response [201]>
+2024-01-29 21:24:52,877 INFO Consumed record with offset: 153
+2024-01-29 21:24:52,886 INFO Upload response: <Response [201]>
+2024-01-29 21:24:54,880 INFO Consumed record with offset: 154
+2024-01-29 21:24:54,888 INFO Upload response: <Response [201]>
+2024-01-29 21:24:56,882 INFO Consumed record with offset: 155
+2024-01-29 21:24:56,892 INFO Upload response: <Response [201]>
+2024-01-29 21:24:58,885 INFO Consumed record with offset: 156
+2024-01-29 21:24:58,896 INFO Upload response: <Response [201]>
+2024-01-29 21:25:00,887 INFO Consumed record with offset: 157
+2024-01-29 21:25:00,901 INFO Upload response: <Response [201]>
+2024-01-29 21:25:02,889 INFO Consumed record with offset: 158
+2024-01-29 21:25:02,899 INFO Upload response: <Response [201]>
+2024-01-29 21:25:04,992 INFO Consumed record with offset: 159
+2024-01-29 21:25:05,001 INFO Upload response: <Response [201]>
+2024-01-29 21:25:06,894 INFO Consumed record with offset: 160
+2024-01-29 21:25:06,903 INFO Upload response: <Response [201]>
+2024-01-29 21:25:08,898 INFO Consumed record with offset: 161
+2024-01-29 21:25:08,907 INFO Upload response: <Response [201]>
+2024-01-29 21:25:10,900 INFO Consumed record with offset: 162
+2024-01-29 21:25:10,909 INFO Upload response: <Response [201]>
+2024-01-29 21:25:12,903 INFO Consumed record with offset: 163
+2024-01-29 21:25:12,912 INFO Upload response: <Response [201]>
+2024-01-29 21:25:14,906 INFO Consumed record with offset: 164
+2024-01-29 21:25:14,915 INFO Upload response: <Response [201]>
+2024-01-29 21:25:16,907 INFO Consumed record with offset: 165
+2024-01-29 21:25:16,917 INFO Upload response: <Response [201]>
+2024-01-29 21:25:18,911 INFO Consumed record with offset: 166
+2024-01-29 21:25:18,923 INFO Upload response: <Response [201]>
+2024-01-29 21:25:20,914 INFO Consumed record with offset: 167
+2024-01-29 21:25:20,922 INFO Upload response: <Response [201]>
+2024-01-29 21:25:22,916 INFO Consumed record with offset: 168
+2024-01-29 21:25:22,925 INFO Upload response: <Response [201]>
+2024-01-29 21:25:24,918 INFO Consumed record with offset: 169
+2024-01-29 21:25:24,928 INFO Upload response: <Response [201]>
+2024-01-29 21:25:26,918 INFO Consumed record with offset: 170
+2024-01-29 21:25:26,927 INFO Upload response: <Response [201]>
+2024-01-29 21:25:28,921 INFO Consumed record with offset: 171
+2024-01-29 21:25:28,931 INFO Upload response: <Response [201]>
+2024-01-29 21:25:30,924 INFO Consumed record with offset: 172
+2024-01-29 21:25:30,933 INFO Upload response: <Response [201]>
+2024-01-29 21:25:32,927 INFO Consumed record with offset: 173
+2024-01-29 21:25:32,937 INFO Upload response: <Response [201]>
+2024-01-29 21:25:34,930 INFO Consumed record with offset: 174
+2024-01-29 21:25:34,943 INFO Upload response: <Response [201]>
+2024-01-29 21:25:37,033 INFO Consumed record with offset: 175
+2024-01-29 21:25:37,044 INFO Upload response: <Response [201]>
+2024-01-29 21:25:38,935 INFO Consumed record with offset: 176
+2024-01-29 21:25:38,944 INFO Upload response: <Response [201]>
+2024-01-29 21:25:41,038 INFO Consumed record with offset: 177
+2024-01-29 21:25:41,050 INFO Upload response: <Response [201]>
+2024-01-29 21:25:42,940 INFO Consumed record with offset: 178
+2024-01-29 21:25:42,949 INFO Upload response: <Response [201]>
+2024-01-29 21:25:44,942 INFO Consumed record with offset: 179
+2024-01-29 21:25:44,951 INFO Upload response: <Response [201]>
+2024-01-29 21:25:46,945 INFO Consumed record with offset: 180
+2024-01-29 21:25:46,955 INFO Upload response: <Response [201]>
+2024-01-29 21:25:48,947 INFO Consumed record with offset: 181
+2024-01-29 21:25:48,956 INFO Upload response: <Response [201]>
+2024-01-29 21:25:50,950 INFO Consumed record with offset: 182
+2024-01-29 21:25:50,960 INFO Upload response: <Response [201]>
+2024-01-29 21:25:52,953 INFO Consumed record with offset: 183
+2024-01-29 21:25:52,962 INFO Upload response: <Response [201]>
+2024-01-29 21:25:54,955 INFO Consumed record with offset: 184
+2024-01-29 21:25:54,964 INFO Upload response: <Response [201]>
+2024-01-29 21:25:56,958 INFO Consumed record with offset: 185
+2024-01-29 21:25:56,966 INFO Upload response: <Response [201]>
+2024-01-29 21:25:58,959 INFO Consumed record with offset: 186
+2024-01-29 21:25:58,967 INFO Upload response: <Response [201]>
+2024-01-29 21:26:00,962 INFO Consumed record with offset: 187
+2024-01-29 21:26:00,971 INFO Upload response: <Response [201]>
+2024-01-29 21:26:02,966 INFO Consumed record with offset: 188
+2024-01-29 21:26:02,975 INFO Upload response: <Response [201]>
+2024-01-29 21:26:04,967 INFO Consumed record with offset: 189
+2024-01-29 21:26:04,975 INFO Upload response: <Response [201]>
+2024-01-29 21:26:06,970 INFO Consumed record with offset: 190
+2024-01-29 21:26:06,979 INFO Upload response: <Response [201]>
+2024-01-29 21:26:08,973 INFO Consumed record with offset: 191
+2024-01-29 21:26:08,982 INFO Upload response: <Response [201]>
+2024-01-29 21:26:10,975 INFO Consumed record with offset: 192
+2024-01-29 21:26:10,984 INFO Upload response: <Response [201]>
+2024-01-29 21:26:12,978 INFO Consumed record with offset: 193
+2024-01-29 21:26:12,987 INFO Upload response: <Response [201]>
+2024-01-29 21:26:14,981 INFO Consumed record with offset: 194
+2024-01-29 21:26:14,990 INFO Upload response: <Response [201]>
+2024-01-29 21:26:16,982 INFO Consumed record with offset: 195
+2024-01-29 21:26:16,991 INFO Upload response: <Response [201]>
+2024-01-29 21:26:18,987 INFO Consumed record with offset: 196
+2024-01-29 21:26:18,997 INFO Upload response: <Response [201]>
+2024-01-29 21:26:20,988 INFO Consumed record with offset: 197
+2024-01-29 21:26:20,997 INFO Upload response: <Response [201]>
+2024-01-29 21:26:22,991 INFO Consumed record with offset: 198
+2024-01-29 21:26:23,000 INFO Upload response: <Response [201]>
+2024-01-29 21:26:24,996 INFO Consumed record with offset: 199
+2024-01-29 21:26:25,005 INFO Upload response: <Response [201]>
+2024-01-29 21:26:26,997 INFO Consumed record with offset: 200
+2024-01-29 21:26:27,006 INFO Upload response: <Response [201]>
+2024-01-29 21:26:29,000 INFO Consumed record with offset: 201
+2024-01-29 21:26:29,010 INFO Upload response: <Response [201]>
+2024-01-29 21:26:31,002 INFO Consumed record with offset: 202
+2024-01-29 21:26:31,012 INFO Upload response: <Response [201]>
+2024-01-29 21:26:33,007 INFO Consumed record with offset: 203
+2024-01-29 21:26:33,015 INFO Upload response: <Response [201]>
+2024-01-29 21:26:35,007 INFO Consumed record with offset: 204
+2024-01-29 21:26:35,016 INFO Upload response: <Response [201]>
+2024-01-29 21:26:37,011 INFO Consumed record with offset: 205
+2024-01-29 21:26:37,019 INFO Upload response: <Response [201]>
+2024-01-29 21:26:39,013 INFO Consumed record with offset: 206
+2024-01-29 21:26:39,024 INFO Upload response: <Response [201]>
+2024-01-29 21:26:41,016 INFO Consumed record with offset: 207
+2024-01-29 21:26:41,025 INFO Upload response: <Response [201]>
+2024-01-29 21:26:43,019 INFO Consumed record with offset: 208
+2024-01-29 21:26:43,028 INFO Upload response: <Response [201]>
+2024-01-29 21:26:45,022 INFO Consumed record with offset: 209
+2024-01-29 21:26:45,031 INFO Upload response: <Response [201]>
+2024-01-29 21:26:47,023 INFO Consumed record with offset: 210
+2024-01-29 21:26:47,035 INFO Upload response: <Response [201]>
+2024-01-29 21:26:49,027 INFO Consumed record with offset: 211
+2024-01-29 21:26:49,037 INFO Upload response: <Response [201]>
+2024-01-29 21:26:51,027 INFO Consumed record with offset: 212
+2024-01-29 21:26:51,036 INFO Upload response: <Response [201]>
+2024-01-29 21:26:53,030 INFO Consumed record with offset: 213
+2024-01-29 21:26:53,039 INFO Upload response: <Response [201]>
+2024-01-29 21:26:55,033 INFO Consumed record with offset: 214
+2024-01-29 21:26:55,052 INFO Upload response: <Response [201]>
+2024-01-29 21:26:57,036 INFO Consumed record with offset: 215
+2024-01-29 21:26:57,045 INFO Upload response: <Response [201]>
+2024-01-29 21:26:59,139 INFO Consumed record with offset: 216
+2024-01-29 21:26:59,148 INFO Upload response: <Response [201]>
+2024-01-29 21:27:01,041 INFO Consumed record with offset: 217
+2024-01-29 21:27:01,051 INFO Upload response: <Response [201]>
+2024-01-29 21:27:03,043 INFO Consumed record with offset: 218
+2024-01-29 21:27:03,052 INFO Upload response: <Response [201]>
+2024-01-29 21:27:05,047 INFO Consumed record with offset: 219
+2024-01-29 21:27:05,059 INFO Upload response: <Response [201]>
+2024-01-29 21:27:07,049 INFO Consumed record with offset: 220
+2024-01-29 21:27:07,062 INFO Upload response: <Response [201]>
+2024-01-29 21:27:09,050 INFO Consumed record with offset: 221
+2024-01-29 21:27:09,059 INFO Upload response: <Response [201]>
+2024-01-29 21:27:11,052 INFO Consumed record with offset: 222
+2024-01-29 21:27:11,060 INFO Upload response: <Response [201]>
+2024-01-29 21:27:13,057 INFO Consumed record with offset: 223
+2024-01-29 21:27:13,067 INFO Upload response: <Response [201]>
+2024-01-29 21:27:15,057 INFO Consumed record with offset: 224
+2024-01-29 21:27:15,066 INFO Upload response: <Response [201]>
+2024-01-29 21:27:17,060 INFO Consumed record with offset: 225
+2024-01-29 21:27:17,070 INFO Upload response: <Response [201]>
+2024-01-29 21:27:19,063 INFO Consumed record with offset: 226
+2024-01-29 21:27:19,072 INFO Upload response: <Response [201]>
+2024-01-29 21:27:21,065 INFO Consumed record with offset: 227
+2024-01-29 21:27:21,073 INFO Upload response: <Response [201]>
+2024-01-29 21:27:23,068 INFO Consumed record with offset: 228
+2024-01-29 21:27:23,077 INFO Upload response: <Response [201]>
+2024-01-29 21:27:25,070 INFO Consumed record with offset: 229
+2024-01-29 21:27:25,079 INFO Upload response: <Response [201]>
+2024-01-29 21:27:27,072 INFO Consumed record with offset: 230
+2024-01-29 21:27:27,081 INFO Upload response: <Response [201]>
+2024-01-29 21:27:29,075 INFO Consumed record with offset: 231
+2024-01-29 21:27:29,084 INFO Upload response: <Response [201]>
+2024-01-29 21:27:31,079 INFO Consumed record with offset: 232
+2024-01-29 21:27:31,089 INFO Upload response: <Response [201]>
+2024-01-29 21:27:33,081 INFO Consumed record with offset: 233
+2024-01-29 21:27:33,091 INFO Upload response: <Response [201]>
+2024-01-29 21:27:35,084 INFO Consumed record with offset: 234
+2024-01-29 21:27:35,093 INFO Upload response: <Response [201]>
+2024-01-29 21:27:37,086 INFO Consumed record with offset: 235
+2024-01-29 21:27:37,095 INFO Upload response: <Response [201]>
+2024-01-29 21:27:39,087 INFO Consumed record with offset: 236
+2024-01-29 21:27:39,097 INFO Upload response: <Response [201]>
+2024-01-29 21:27:41,089 INFO Consumed record with offset: 237
+2024-01-29 21:27:41,097 INFO Upload response: <Response [201]>
+2024-01-29 21:27:43,192 INFO Consumed record with offset: 238
+2024-01-29 21:27:43,202 INFO Upload response: <Response [201]>
+2024-01-29 21:27:45,094 INFO Consumed record with offset: 239
+2024-01-29 21:27:45,103 INFO Upload response: <Response [201]>
+2024-01-29 21:56:31,166 INFO Consumed record with offset: 240
+2024-01-29 21:56:31,177 INFO Upload response: <Response [201]>
+2024-01-29 21:56:33,167 INFO Consumed record with offset: 241
+2024-01-29 21:56:33,177 INFO Upload response: <Response [201]>
+2024-01-29 21:56:35,169 INFO Consumed record with offset: 242
+2024-01-29 21:56:35,179 INFO Upload response: <Response [201]>
+2024-01-29 21:56:37,172 INFO Consumed record with offset: 243
+2024-01-29 21:56:37,180 INFO Upload response: <Response [201]>
+2024-01-29 21:56:39,175 INFO Consumed record with offset: 244
+2024-01-29 21:56:39,183 INFO Upload response: <Response [201]>
+2024-01-29 21:56:41,177 INFO Consumed record with offset: 245
+2024-01-29 21:56:41,188 INFO Upload response: <Response [201]>
+2024-01-29 21:56:43,179 INFO Consumed record with offset: 246
+2024-01-29 21:56:43,191 INFO Upload response: <Response [201]>
+2024-01-29 21:56:45,182 INFO Consumed record with offset: 247
+2024-01-29 21:56:45,191 INFO Upload response: <Response [201]>
+2024-01-29 21:56:47,185 INFO Consumed record with offset: 248
+2024-01-29 21:56:47,194 INFO Upload response: <Response [201]>
+2024-01-29 21:56:49,188 INFO Consumed record with offset: 249
+2024-01-29 21:56:49,196 INFO Upload response: <Response [201]>
+2024-01-29 21:56:51,192 INFO Consumed record with offset: 250
+2024-01-29 21:56:51,200 INFO Upload response: <Response [201]>
+2024-01-29 21:56:53,193 INFO Consumed record with offset: 251
+2024-01-29 21:56:53,204 INFO Upload response: <Response [201]>
+2024-01-29 21:56:55,214 INFO Consumed record with offset: 252
+2024-01-29 21:56:55,222 INFO Upload response: <Response [201]>
+2024-01-29 21:56:57,199 INFO Consumed record with offset: 253
+2024-01-29 21:56:57,207 INFO Upload response: <Response [201]>
+2024-01-29 21:56:59,201 INFO Consumed record with offset: 254
+2024-01-29 21:56:59,209 INFO Upload response: <Response [201]>
+2024-01-29 21:57:01,204 INFO Consumed record with offset: 255
+2024-01-29 21:57:01,212 INFO Upload response: <Response [201]>
+2024-01-29 21:57:03,207 INFO Consumed record with offset: 256
+2024-01-29 21:57:03,216 INFO Upload response: <Response [201]>
+2024-01-29 21:57:05,211 INFO Consumed record with offset: 257
+2024-01-29 21:57:05,219 INFO Upload response: <Response [201]>
+2024-01-29 21:57:07,212 INFO Consumed record with offset: 258
+2024-01-29 21:57:07,220 INFO Upload response: <Response [201]>
+2024-01-29 21:57:09,214 INFO Consumed record with offset: 259
+2024-01-29 21:57:09,229 INFO Upload response: <Response [201]>
+2024-01-29 21:57:11,217 INFO Consumed record with offset: 260
+2024-01-29 21:57:11,224 INFO Upload response: <Response [201]>
+2024-01-29 21:57:13,220 INFO Consumed record with offset: 261
+2024-01-29 21:57:13,230 INFO Upload response: <Response [201]>
+2024-01-29 21:57:15,223 INFO Consumed record with offset: 262
+2024-01-29 21:57:15,231 INFO Upload response: <Response [201]>
+2024-01-29 21:57:17,225 INFO Consumed record with offset: 263
+2024-01-29 21:57:17,233 INFO Upload response: <Response [201]>
+2024-01-29 21:57:19,227 INFO Consumed record with offset: 264
+2024-01-29 21:57:19,236 INFO Upload response: <Response [201]>
+2024-01-29 21:57:21,230 INFO Consumed record with offset: 265
+2024-01-29 21:57:21,238 INFO Upload response: <Response [201]>
+2024-01-29 21:57:23,233 INFO Consumed record with offset: 266
+2024-01-29 21:57:23,241 INFO Upload response: <Response [201]>
+2024-01-29 21:57:25,234 INFO Consumed record with offset: 267
+2024-01-29 21:57:25,243 INFO Upload response: <Response [201]>
+2024-01-29 21:57:27,237 INFO Consumed record with offset: 268
+2024-01-29 21:57:27,260 INFO Upload response: <Response [201]>
+2024-01-29 21:57:29,239 INFO Consumed record with offset: 269
+2024-01-29 21:57:29,249 INFO Upload response: <Response [201]>
+2024-01-29 21:57:31,254 INFO Consumed record with offset: 270
+2024-01-29 21:57:31,261 INFO Upload response: <Response [201]>
+2024-01-29 21:57:33,247 INFO Consumed record with offset: 271
+2024-01-29 21:57:33,256 INFO Upload response: <Response [201]>
+2024-01-29 21:57:35,249 INFO Consumed record with offset: 272
+2024-01-29 21:57:35,257 INFO Upload response: <Response [201]>
+2024-01-29 21:57:37,253 INFO Consumed record with offset: 273
+2024-01-29 21:57:37,262 INFO Upload response: <Response [201]>
+2024-01-29 21:57:39,255 INFO Consumed record with offset: 274
+2024-01-29 21:57:39,262 INFO Upload response: <Response [201]>
+2024-01-29 21:57:41,257 INFO Consumed record with offset: 275
+2024-01-29 21:57:41,266 INFO Upload response: <Response [201]>
+2024-01-29 21:57:43,259 INFO Consumed record with offset: 276
+2024-01-29 21:57:43,268 INFO Upload response: <Response [201]>
+2024-01-29 21:57:45,363 INFO Consumed record with offset: 277
+2024-01-29 21:57:45,373 INFO Upload response: <Response [201]>
+2024-01-29 21:57:47,266 INFO Consumed record with offset: 278
+2024-01-29 21:57:47,274 INFO Upload response: <Response [201]>
+2024-01-29 21:57:49,267 INFO Consumed record with offset: 279
+2024-01-29 21:57:49,276 INFO Upload response: <Response [201]>
+2024-01-29 21:57:51,271 INFO Consumed record with offset: 280
+2024-01-29 21:57:51,281 INFO Upload response: <Response [201]>
+2024-01-29 21:57:53,274 INFO Consumed record with offset: 281
+2024-01-29 21:57:53,282 INFO Upload response: <Response [201]>
+2024-01-29 21:57:55,277 INFO Consumed record with offset: 282
+2024-01-29 21:57:55,285 INFO Upload response: <Response [201]>
+2024-01-29 21:57:57,280 INFO Consumed record with offset: 283
+2024-01-29 21:57:57,289 INFO Upload response: <Response [201]>
+2024-01-29 21:57:59,282 INFO Consumed record with offset: 284
+2024-01-29 21:57:59,291 INFO Upload response: <Response [201]>
+2024-01-29 21:58:01,287 INFO Consumed record with offset: 285
+2024-01-29 21:58:01,295 INFO Upload response: <Response [201]>
+2024-01-29 21:58:03,287 INFO Consumed record with offset: 286
+2024-01-29 21:58:03,295 INFO Upload response: <Response [201]>
+2024-01-29 21:58:05,291 INFO Consumed record with offset: 287
+2024-01-29 21:58:05,300 INFO Upload response: <Response [201]>
+2024-01-29 21:58:07,293 INFO Consumed record with offset: 288
+2024-01-29 21:58:07,302 INFO Upload response: <Response [201]>
+2024-01-29 21:58:09,296 INFO Consumed record with offset: 289
+2024-01-29 21:58:09,305 INFO Upload response: <Response [201]>
+2024-01-29 21:58:11,300 INFO Consumed record with offset: 290
+2024-01-29 21:58:11,309 INFO Upload response: <Response [201]>
+2024-01-29 21:58:13,302 INFO Consumed record with offset: 291
+2024-01-29 21:58:13,311 INFO Upload response: <Response [201]>
+2024-01-29 21:58:15,305 INFO Consumed record with offset: 292
+2024-01-29 21:58:15,313 INFO Upload response: <Response [201]>
+2024-01-29 21:58:17,307 INFO Consumed record with offset: 293
+2024-01-29 21:58:17,316 INFO Upload response: <Response [201]>
+2024-01-29 21:58:19,310 INFO Consumed record with offset: 294
+2024-01-29 21:58:19,319 INFO Upload response: <Response [201]>
+2024-01-29 21:58:21,313 INFO Consumed record with offset: 295
+2024-01-29 21:58:21,323 INFO Upload response: <Response [201]>
+2024-01-29 21:58:23,316 INFO Consumed record with offset: 296
+2024-01-29 21:58:23,325 INFO Upload response: <Response [201]>
+2024-01-29 21:58:25,319 INFO Consumed record with offset: 297
+2024-01-29 21:58:25,327 INFO Upload response: <Response [201]>
+2024-01-29 21:58:27,322 INFO Consumed record with offset: 298
+2024-01-29 21:58:27,333 INFO Upload response: <Response [201]>
+2024-01-29 21:58:29,324 INFO Consumed record with offset: 299
+2024-01-29 21:58:29,333 INFO Upload response: <Response [201]>
+2024-01-29 21:58:31,327 INFO Consumed record with offset: 300
+2024-01-29 21:58:31,336 INFO Upload response: <Response [201]>
+2024-01-29 21:58:33,330 INFO Consumed record with offset: 301
+2024-01-29 21:58:33,338 INFO Upload response: <Response [201]>
+2024-01-29 21:58:35,354 INFO Consumed record with offset: 302
+2024-01-29 21:58:35,362 INFO Upload response: <Response [201]>
+2024-01-29 21:58:37,335 INFO Consumed record with offset: 303
+2024-01-29 21:58:37,345 INFO Upload response: <Response [201]>
+2024-01-29 21:58:39,337 INFO Consumed record with offset: 304
+2024-01-29 21:58:39,359 INFO Upload response: <Response [201]>
+2024-01-29 21:58:41,339 INFO Consumed record with offset: 305
+2024-01-29 21:58:41,348 INFO Upload response: <Response [201]>
+2024-01-29 21:58:43,342 INFO Consumed record with offset: 306
+2024-01-29 21:58:43,350 INFO Upload response: <Response [201]>
+2024-01-29 21:58:45,345 INFO Consumed record with offset: 307
+2024-01-29 21:58:45,354 INFO Upload response: <Response [201]>
+2024-01-29 21:58:47,347 INFO Consumed record with offset: 308
+2024-01-29 21:58:47,355 INFO Upload response: <Response [201]>
+2024-01-29 21:58:49,349 INFO Consumed record with offset: 309
+2024-01-29 21:58:49,358 INFO Upload response: <Response [201]>
+2024-01-29 21:58:51,352 INFO Consumed record with offset: 310
+2024-01-29 21:58:51,360 INFO Upload response: <Response [201]>
+2024-01-29 21:58:53,355 INFO Consumed record with offset: 311
+2024-01-29 21:58:53,363 INFO Upload response: <Response [201]>
+2024-01-29 21:58:55,358 INFO Consumed record with offset: 312
+2024-01-29 21:58:55,366 INFO Upload response: <Response [201]>
+2024-01-29 21:58:57,361 INFO Consumed record with offset: 313
+2024-01-29 21:58:57,369 INFO Upload response: <Response [201]>
+2024-01-29 21:58:59,364 INFO Consumed record with offset: 314
+2024-01-29 21:58:59,372 INFO Upload response: <Response [201]>
+2024-01-29 21:59:01,367 INFO Consumed record with offset: 315
+2024-01-29 21:59:01,374 INFO Upload response: <Response [201]>
+2024-01-29 21:59:03,370 INFO Consumed record with offset: 316
+2024-01-29 21:59:03,379 INFO Upload response: <Response [201]>
+2024-01-29 21:59:05,373 INFO Consumed record with offset: 317
+2024-01-29 21:59:05,381 INFO Upload response: <Response [201]>
+2024-01-29 21:59:07,375 INFO Consumed record with offset: 318
+2024-01-29 21:59:07,384 INFO Upload response: <Response [201]>
+2024-01-29 21:59:09,377 INFO Consumed record with offset: 319
+2024-01-29 21:59:09,386 INFO Upload response: <Response [201]>
+2024-01-29 21:59:11,380 INFO Consumed record with offset: 320
+2024-01-29 21:59:11,389 INFO Upload response: <Response [201]>
+2024-01-29 21:59:13,394 INFO Consumed record with offset: 321
+2024-01-29 21:59:13,403 INFO Upload response: <Response [201]>
+2024-01-29 21:59:15,386 INFO Consumed record with offset: 322
+2024-01-29 21:59:15,393 INFO Upload response: <Response [201]>
+2024-01-29 21:59:17,387 INFO Consumed record with offset: 323
+2024-01-29 21:59:17,395 INFO Upload response: <Response [201]>
+2024-01-29 21:59:19,388 INFO Consumed record with offset: 324
+2024-01-29 21:59:19,396 INFO Upload response: <Response [201]>
+2024-01-29 21:59:21,390 INFO Consumed record with offset: 325
+2024-01-29 21:59:21,399 INFO Upload response: <Response [201]>
+2024-01-29 21:59:23,394 INFO Consumed record with offset: 326
+2024-01-29 21:59:23,402 INFO Upload response: <Response [201]>
+2024-01-29 21:59:25,397 INFO Consumed record with offset: 327
+2024-01-29 21:59:25,405 INFO Upload response: <Response [201]>
+2024-01-29 21:59:27,400 INFO Consumed record with offset: 328
+2024-01-29 21:59:27,408 INFO Upload response: <Response [201]>
+2024-01-29 21:59:29,403 INFO Consumed record with offset: 329
+2024-01-29 21:59:29,411 INFO Upload response: <Response [201]>
+2024-01-29 21:59:31,405 INFO Consumed record with offset: 330
+2024-01-29 21:59:31,415 INFO Upload response: <Response [201]>
+2024-01-29 21:59:33,407 INFO Consumed record with offset: 331
+2024-01-29 21:59:33,416 INFO Upload response: <Response [201]>
+2024-01-29 21:59:35,410 INFO Consumed record with offset: 332
+2024-01-29 21:59:35,417 INFO Upload response: <Response [201]>
+2024-01-29 21:59:37,413 INFO Consumed record with offset: 333
+2024-01-29 21:59:37,421 INFO Upload response: <Response [201]>
+2024-01-29 21:59:39,415 INFO Consumed record with offset: 334
+2024-01-29 21:59:39,424 INFO Upload response: <Response [201]>
+2024-01-29 21:59:41,417 INFO Consumed record with offset: 335
+2024-01-29 21:59:41,426 INFO Upload response: <Response [201]>
+2024-01-29 21:59:43,420 INFO Consumed record with offset: 336
+2024-01-29 21:59:43,428 INFO Upload response: <Response [201]>
+2024-01-29 21:59:45,423 INFO Consumed record with offset: 337
+2024-01-29 21:59:45,431 INFO Upload response: <Response [201]>
+2024-01-29 21:59:47,425 INFO Consumed record with offset: 338
+2024-01-29 21:59:47,434 INFO Upload response: <Response [201]>
+2024-01-29 21:59:49,444 INFO Consumed record with offset: 339
+2024-01-29 21:59:49,452 INFO Upload response: <Response [201]>
+2024-01-29 21:59:51,431 INFO Consumed record with offset: 340
+2024-01-29 21:59:51,438 INFO Upload response: <Response [201]>
+2024-01-29 21:59:53,434 INFO Consumed record with offset: 341
+2024-01-29 21:59:53,443 INFO Upload response: <Response [201]>
+2024-01-29 21:59:55,436 INFO Consumed record with offset: 342
+2024-01-29 21:59:55,444 INFO Upload response: <Response [201]>
+2024-01-29 21:59:57,439 INFO Consumed record with offset: 343
+2024-01-29 21:59:57,447 INFO Upload response: <Response [201]>
+2024-01-29 21:59:59,442 INFO Consumed record with offset: 344
+2024-01-29 21:59:59,450 INFO Upload response: <Response [201]>
+2024-01-29 22:00:01,445 INFO Consumed record with offset: 345
+2024-01-29 22:00:01,453 INFO Upload response: <Response [201]>
+2024-01-29 22:00:03,447 INFO Consumed record with offset: 346
+2024-01-29 22:00:03,455 INFO Upload response: <Response [201]>
+2024-01-29 22:00:05,450 INFO Consumed record with offset: 347
+2024-01-29 22:00:05,460 INFO Upload response: <Response [201]>
+2024-01-29 22:00:07,554 INFO Consumed record with offset: 348
+2024-01-29 22:00:07,561 INFO Upload response: <Response [201]>
+2024-01-29 22:00:09,455 INFO Consumed record with offset: 349
+2024-01-29 22:00:09,463 INFO Upload response: <Response [201]>
+2024-01-29 22:00:11,457 INFO Consumed record with offset: 350
+2024-01-29 22:00:11,465 INFO Upload response: <Response [201]>
+2024-01-29 22:00:13,459 INFO Consumed record with offset: 351
+2024-01-29 22:00:13,467 INFO Upload response: <Response [201]>
+2024-01-29 22:00:15,460 INFO Consumed record with offset: 352
+2024-01-29 22:00:15,469 INFO Upload response: <Response [201]>
+2024-01-29 22:00:17,463 INFO Consumed record with offset: 353
+2024-01-29 22:00:17,471 INFO Upload response: <Response [201]>
+2024-01-29 22:00:19,466 INFO Consumed record with offset: 354
+2024-01-29 22:00:19,474 INFO Upload response: <Response [201]>
+2024-01-29 22:00:21,468 INFO Consumed record with offset: 355
+2024-01-29 22:00:21,476 INFO Upload response: <Response [201]>
+2024-01-29 22:00:23,471 INFO Consumed record with offset: 356
+2024-01-29 22:00:23,480 INFO Upload response: <Response [201]>
+2024-01-29 22:00:25,474 INFO Consumed record with offset: 357
+2024-01-29 22:00:25,482 INFO Upload response: <Response [201]>
+2024-01-29 22:00:27,477 INFO Consumed record with offset: 358
+2024-01-29 22:00:27,485 INFO Upload response: <Response [201]>
+2024-01-29 22:00:29,479 INFO Consumed record with offset: 359
+2024-01-29 22:00:29,487 INFO Upload response: <Response [201]>
+2024-01-29 22:00:31,483 INFO Consumed record with offset: 360
+2024-01-29 22:00:31,492 INFO Upload response: <Response [201]>
+2024-01-29 22:00:33,486 INFO Consumed record with offset: 361
+2024-01-29 22:00:33,493 INFO Upload response: <Response [201]>
+2024-01-29 22:00:35,487 INFO Consumed record with offset: 362
+2024-01-29 22:00:35,496 INFO Upload response: <Response [201]>
+2024-01-29 22:00:37,490 INFO Consumed record with offset: 363
+2024-01-29 22:00:37,498 INFO Upload response: <Response [201]>
+2024-01-29 22:00:39,493 INFO Consumed record with offset: 364
+2024-01-29 22:00:39,501 INFO Upload response: <Response [201]>
+2024-01-29 22:00:41,495 INFO Consumed record with offset: 365
+2024-01-29 22:00:41,503 INFO Upload response: <Response [201]>
+2024-01-29 22:00:43,497 INFO Consumed record with offset: 366
+2024-01-29 22:00:43,506 INFO Upload response: <Response [201]>
+2024-01-29 22:00:45,499 INFO Consumed record with offset: 367
+2024-01-29 22:00:45,509 INFO Upload response: <Response [201]>
+2024-01-29 22:00:47,502 INFO Consumed record with offset: 368
+2024-01-29 22:00:47,512 INFO Upload response: <Response [201]>
+2024-01-29 22:00:49,506 INFO Consumed record with offset: 369
+2024-01-29 22:00:49,514 INFO Upload response: <Response [201]>
+2024-01-29 22:00:51,508 INFO Consumed record with offset: 370
+2024-01-29 22:00:51,521 INFO Upload response: <Response [201]>
+2024-01-29 22:00:53,511 INFO Consumed record with offset: 371
+2024-01-29 22:00:53,519 INFO Upload response: <Response [201]>
+2024-01-29 22:00:55,513 INFO Consumed record with offset: 372
+2024-01-29 22:00:55,522 INFO Upload response: <Response [201]>
+2024-01-29 22:00:57,516 INFO Consumed record with offset: 373
+2024-01-29 22:00:57,524 INFO Upload response: <Response [201]>
+2024-01-29 22:00:59,519 INFO Consumed record with offset: 374
+2024-01-29 22:00:59,527 INFO Upload response: <Response [201]>
+2024-01-29 22:01:01,522 INFO Consumed record with offset: 375
+2024-01-29 22:01:01,532 INFO Upload response: <Response [201]>
+2024-01-29 22:01:03,526 INFO Consumed record with offset: 376
+2024-01-29 22:01:03,534 INFO Upload response: <Response [201]>
+2024-01-29 22:01:05,528 INFO Consumed record with offset: 377
+2024-01-29 22:01:05,536 INFO Upload response: <Response [201]>
+2024-01-29 22:01:07,531 INFO Consumed record with offset: 378
+2024-01-29 22:01:07,538 INFO Upload response: <Response [201]>
+2024-01-29 22:01:09,533 INFO Consumed record with offset: 379
+2024-01-29 22:01:09,541 INFO Upload response: <Response [201]>
+2024-01-29 22:01:11,537 INFO Consumed record with offset: 380
+2024-01-29 22:01:11,544 INFO Upload response: <Response [201]>
+2024-01-29 22:01:13,540 INFO Consumed record with offset: 381
+2024-01-29 22:01:13,548 INFO Upload response: <Response [201]>
+2024-01-29 22:01:15,554 INFO Consumed record with offset: 382
+2024-01-29 22:01:15,562 INFO Upload response: <Response [201]>
+2024-01-29 22:01:17,545 INFO Consumed record with offset: 383
+2024-01-29 22:01:17,552 INFO Upload response: <Response [201]>
+2024-01-29 22:01:19,547 INFO Consumed record with offset: 384
+2024-01-29 22:01:19,554 INFO Upload response: <Response [201]>
+2024-01-29 22:01:21,550 INFO Consumed record with offset: 385
+2024-01-29 22:01:21,558 INFO Upload response: <Response [201]>
+2024-01-29 22:01:23,553 INFO Consumed record with offset: 386
+2024-01-29 22:01:23,561 INFO Upload response: <Response [201]>
+2024-01-29 22:01:25,556 INFO Consumed record with offset: 387
+2024-01-29 22:01:25,568 INFO Upload response: <Response [201]>
+2024-01-29 22:01:27,557 INFO Consumed record with offset: 388
+2024-01-29 22:01:27,566 INFO Upload response: <Response [201]>
+2024-01-29 22:01:29,558 INFO Consumed record with offset: 389
+2024-01-29 22:01:29,566 INFO Upload response: <Response [201]>
+2024-01-29 22:01:31,561 INFO Consumed record with offset: 390
+2024-01-29 22:01:31,569 INFO Upload response: <Response [201]>
+2024-01-29 22:01:33,563 INFO Consumed record with offset: 391
+2024-01-29 22:01:33,571 INFO Upload response: <Response [201]>
+2024-01-29 22:01:35,566 INFO Consumed record with offset: 392
+2024-01-29 22:01:35,575 INFO Upload response: <Response [201]>
+2024-01-29 22:01:37,570 INFO Consumed record with offset: 393
+2024-01-29 22:01:37,582 INFO Upload response: <Response [201]>
+2024-01-29 22:01:39,572 INFO Consumed record with offset: 394
+2024-01-29 22:01:39,582 INFO Upload response: <Response [201]>
+2024-01-29 22:01:41,575 INFO Consumed record with offset: 395
+2024-01-29 22:01:41,583 INFO Upload response: <Response [201]>
+2024-01-29 22:01:43,577 INFO Consumed record with offset: 396
+2024-01-29 22:01:43,585 INFO Upload response: <Response [201]>
+2024-01-29 22:01:45,581 INFO Consumed record with offset: 397
+2024-01-29 22:01:45,588 INFO Upload response: <Response [201]>
+2024-01-29 22:01:47,583 INFO Consumed record with offset: 398
+2024-01-29 22:01:47,593 INFO Upload response: <Response [201]>
+2024-01-29 22:01:49,586 INFO Consumed record with offset: 399
+2024-01-29 22:01:49,594 INFO Upload response: <Response [201]>
+2024-01-29 22:01:51,587 INFO Consumed record with offset: 400
+2024-01-29 22:01:51,596 INFO Upload response: <Response [201]>
+2024-01-29 22:01:53,590 INFO Consumed record with offset: 401
+2024-01-29 22:01:53,598 INFO Upload response: <Response [201]>
+2024-01-29 22:01:55,594 INFO Consumed record with offset: 402
+2024-01-29 22:01:55,603 INFO Upload response: <Response [201]>
+2024-01-29 22:01:57,596 INFO Consumed record with offset: 403
+2024-01-29 22:01:57,605 INFO Upload response: <Response [201]>
+2024-01-29 22:01:59,597 INFO Consumed record with offset: 404
+2024-01-29 22:01:59,604 INFO Upload response: <Response [201]>
+2024-01-29 22:02:01,599 INFO Consumed record with offset: 405
+2024-01-29 22:02:01,609 INFO Upload response: <Response [201]>
+2024-01-29 22:02:03,602 INFO Consumed record with offset: 406
+2024-01-29 22:02:03,613 INFO Upload response: <Response [201]>
+2024-01-29 22:02:05,605 INFO Consumed record with offset: 407
+2024-01-29 22:02:05,613 INFO Upload response: <Response [201]>
+2024-01-29 22:02:07,607 INFO Consumed record with offset: 408
+2024-01-29 22:02:07,615 INFO Upload response: <Response [201]>
+2024-01-29 22:02:09,609 INFO Consumed record with offset: 409
+2024-01-29 22:02:09,619 INFO Upload response: <Response [201]>
+2024-01-29 22:02:11,612 INFO Consumed record with offset: 410
+2024-01-29 22:02:11,620 INFO Upload response: <Response [201]>
+2024-01-29 22:02:13,615 INFO Consumed record with offset: 411
+2024-01-29 22:02:13,623 INFO Upload response: <Response [201]>
+2024-01-29 22:02:15,617 INFO Consumed record with offset: 412
+2024-01-29 22:02:15,627 INFO Upload response: <Response [201]>
+2024-01-29 22:02:17,619 INFO Consumed record with offset: 413
+2024-01-29 22:02:17,627 INFO Upload response: <Response [201]>
+2024-01-29 22:02:19,622 INFO Consumed record with offset: 414
+2024-01-29 22:02:19,630 INFO Upload response: <Response [201]>
+2024-01-29 22:02:21,625 INFO Consumed record with offset: 415
+2024-01-29 22:02:21,633 INFO Upload response: <Response [201]>
+2024-01-29 22:02:23,627 INFO Consumed record with offset: 416
+2024-01-29 22:02:23,635 INFO Upload response: <Response [201]>
+2024-01-29 22:02:25,629 INFO Consumed record with offset: 417
+2024-01-29 22:02:25,637 INFO Upload response: <Response [201]>
+2024-01-29 22:02:27,631 INFO Consumed record with offset: 418
+2024-01-29 22:02:27,640 INFO Upload response: <Response [201]>
+2024-01-29 22:02:29,634 INFO Consumed record with offset: 419
+2024-01-29 22:02:29,641 INFO Upload response: <Response [201]>
+2024-01-29 22:02:31,637 INFO Consumed record with offset: 420
+2024-01-29 22:02:31,645 INFO Upload response: <Response [201]>
+2024-01-29 22:02:33,639 INFO Consumed record with offset: 421
+2024-01-29 22:02:33,647 INFO Upload response: <Response [201]>
+2024-01-29 22:02:35,641 INFO Consumed record with offset: 422
+2024-01-29 22:02:35,648 INFO Upload response: <Response [201]>
+2024-01-29 22:02:37,642 INFO Consumed record with offset: 423
+2024-01-29 22:02:37,650 INFO Upload response: <Response [201]>
+2024-01-29 22:02:39,645 INFO Consumed record with offset: 424
+2024-01-29 22:02:39,654 INFO Upload response: <Response [201]>
+2024-01-29 22:02:41,647 INFO Consumed record with offset: 425
+2024-01-29 22:02:41,654 INFO Upload response: <Response [201]>
+2024-01-29 22:02:43,649 INFO Consumed record with offset: 426
+2024-01-29 22:02:43,658 INFO Upload response: <Response [201]>
+2024-01-29 22:02:45,652 INFO Consumed record with offset: 427
+2024-01-29 22:02:45,661 INFO Upload response: <Response [201]>
+2024-01-29 22:02:47,655 INFO Consumed record with offset: 428
+2024-01-29 22:02:47,663 INFO Upload response: <Response [201]>
+2024-01-29 22:02:49,656 INFO Consumed record with offset: 429
+2024-01-29 22:02:49,666 INFO Upload response: <Response [201]>
+2024-01-29 22:02:51,659 INFO Consumed record with offset: 430
+2024-01-29 22:02:51,668 INFO Upload response: <Response [201]>
+2024-01-29 22:02:53,662 INFO Consumed record with offset: 431
+2024-01-29 22:02:53,672 INFO Upload response: <Response [201]>
+2024-01-29 22:02:55,665 INFO Consumed record with offset: 432
+2024-01-29 22:02:55,673 INFO Upload response: <Response [201]>
+2024-01-29 22:02:57,668 INFO Consumed record with offset: 433
+2024-01-29 22:02:57,676 INFO Upload response: <Response [201]>
+2024-01-29 22:02:59,669 INFO Consumed record with offset: 434
+2024-01-29 22:02:59,677 INFO Upload response: <Response [201]>
+2024-01-29 22:03:01,771 INFO Consumed record with offset: 435
+2024-01-29 22:03:01,779 INFO Upload response: <Response [201]>
+2024-01-29 22:03:03,674 INFO Consumed record with offset: 436
+2024-01-29 22:03:03,683 INFO Upload response: <Response [201]>
+2024-01-29 22:03:05,676 INFO Consumed record with offset: 437
+2024-01-29 22:03:05,684 INFO Upload response: <Response [201]>
+2024-01-29 22:03:07,679 INFO Consumed record with offset: 438
+2024-01-29 22:03:07,687 INFO Upload response: <Response [201]>
+2024-01-29 22:03:09,682 INFO Consumed record with offset: 439
+2024-01-29 22:03:09,689 INFO Upload response: <Response [201]>
+2024-01-29 23:13:06,949 INFO Consumed record with offset: 440
+2024-01-29 23:13:06,959 INFO Upload response: <Response [201]>
+2024-01-29 23:13:08,946 INFO Consumed record with offset: 441
+2024-01-29 23:13:08,956 INFO Upload response: <Response [201]>
+2024-01-29 23:13:10,949 INFO Consumed record with offset: 442
+2024-01-29 23:13:10,958 INFO Upload response: <Response [201]>
+2024-01-29 23:13:13,053 INFO Consumed record with offset: 443
+2024-01-29 23:13:13,062 INFO Upload response: <Response [201]>
+2024-01-29 23:13:14,955 INFO Consumed record with offset: 444
+2024-01-29 23:13:14,965 INFO Upload response: <Response [201]>
+2024-01-29 23:13:16,956 INFO Consumed record with offset: 445
+2024-01-29 23:13:16,965 INFO Upload response: <Response [201]>
+2024-01-29 23:13:18,959 INFO Consumed record with offset: 446
+2024-01-29 23:13:18,968 INFO Upload response: <Response [201]>
+2024-01-29 23:13:20,962 INFO Consumed record with offset: 447
+2024-01-29 23:13:20,971 INFO Upload response: <Response [201]>
+2024-01-29 23:13:22,965 INFO Consumed record with offset: 448
+2024-01-29 23:13:22,974 INFO Upload response: <Response [201]>
+2024-01-29 23:13:24,966 INFO Consumed record with offset: 449
+2024-01-29 23:13:24,976 INFO Upload response: <Response [201]>
+2024-01-29 23:13:26,970 INFO Consumed record with offset: 450
+2024-01-29 23:13:26,981 INFO Upload response: <Response [201]>
+2024-01-29 23:13:28,972 INFO Consumed record with offset: 451
+2024-01-29 23:13:28,984 INFO Upload response: <Response [201]>
+2024-01-29 23:13:30,972 INFO Consumed record with offset: 452
+2024-01-29 23:13:30,981 INFO Upload response: <Response [201]>
+2024-01-29 23:13:32,976 INFO Consumed record with offset: 453
+2024-01-29 23:13:32,986 INFO Upload response: <Response [201]>
+2024-01-29 23:13:34,976 INFO Consumed record with offset: 454
+2024-01-29 23:13:34,985 INFO Upload response: <Response [201]>
+2024-01-29 23:13:36,979 INFO Consumed record with offset: 455
+2024-01-29 23:13:36,995 INFO Upload response: <Response [201]>
+2024-01-29 23:13:38,982 INFO Consumed record with offset: 456
+2024-01-29 23:13:38,993 INFO Upload response: <Response [201]>
+2024-01-29 23:13:40,984 INFO Consumed record with offset: 457
+2024-01-29 23:13:40,996 INFO Upload response: <Response [201]>
+2024-01-29 23:13:42,987 INFO Consumed record with offset: 458
+2024-01-29 23:13:42,998 INFO Upload response: <Response [201]>
+2024-01-29 23:13:44,990 INFO Consumed record with offset: 459
+2024-01-29 23:13:45,001 INFO Upload response: <Response [201]>
+2024-01-29 23:13:46,993 INFO Consumed record with offset: 460
+2024-01-29 23:13:47,003 INFO Upload response: <Response [201]>
+2024-01-29 23:13:48,995 INFO Consumed record with offset: 461
+2024-01-29 23:13:49,006 INFO Upload response: <Response [201]>
+2024-01-29 23:13:50,998 INFO Consumed record with offset: 462
+2024-01-29 23:13:51,007 INFO Upload response: <Response [201]>
+2024-01-29 23:13:53,001 INFO Consumed record with offset: 463
+2024-01-29 23:13:53,013 INFO Upload response: <Response [201]>
+2024-01-29 23:13:55,002 INFO Consumed record with offset: 464
+2024-01-29 23:13:55,014 INFO Upload response: <Response [201]>
+2024-01-29 23:13:57,005 INFO Consumed record with offset: 465
+2024-01-29 23:13:57,015 INFO Upload response: <Response [201]>
+2024-01-29 23:13:59,007 INFO Consumed record with offset: 466
+2024-01-29 23:13:59,024 INFO Upload response: <Response [201]>
+2024-01-29 23:14:01,009 INFO Consumed record with offset: 467
+2024-01-29 23:14:01,020 INFO Upload response: <Response [201]>
+2024-01-29 23:14:03,113 INFO Consumed record with offset: 468
+2024-01-29 23:14:03,124 INFO Upload response: <Response [201]>
+2024-01-29 23:14:05,015 INFO Consumed record with offset: 469
+2024-01-29 23:14:05,025 INFO Upload response: <Response [201]>
+2024-01-29 23:14:07,018 INFO Consumed record with offset: 470
+2024-01-29 23:14:07,026 INFO Upload response: <Response [201]>
+2024-01-29 23:14:09,021 INFO Consumed record with offset: 471
+2024-01-29 23:14:09,030 INFO Upload response: <Response [201]>
+2024-01-29 23:14:11,023 INFO Consumed record with offset: 472
+2024-01-29 23:14:11,032 INFO Upload response: <Response [201]>
+2024-01-29 23:14:13,026 INFO Consumed record with offset: 473
+2024-01-29 23:14:13,037 INFO Upload response: <Response [201]>
+2024-01-29 23:14:15,030 INFO Consumed record with offset: 474
+2024-01-29 23:14:15,039 INFO Upload response: <Response [201]>
+2024-01-29 23:14:17,032 INFO Consumed record with offset: 475
+2024-01-29 23:14:17,041 INFO Upload response: <Response [201]>
+2024-01-29 23:14:19,034 INFO Consumed record with offset: 476
+2024-01-29 23:14:19,043 INFO Upload response: <Response [201]>
+2024-01-29 23:14:21,036 INFO Consumed record with offset: 477
+2024-01-29 23:14:21,045 INFO Upload response: <Response [201]>
+2024-01-29 23:14:23,037 INFO Consumed record with offset: 478
+2024-01-29 23:14:23,047 INFO Upload response: <Response [201]>
+2024-01-29 23:14:25,040 INFO Consumed record with offset: 479
+2024-01-29 23:14:25,049 INFO Upload response: <Response [201]>
+2024-01-29 23:14:27,043 INFO Consumed record with offset: 480
+2024-01-29 23:14:27,052 INFO Upload response: <Response [201]>
+2024-01-29 23:14:29,046 INFO Consumed record with offset: 481
+2024-01-29 23:14:29,056 INFO Upload response: <Response [201]>
+2024-01-29 23:14:31,046 INFO Consumed record with offset: 482
+2024-01-29 23:14:31,055 INFO Upload response: <Response [201]>
+2024-01-29 23:14:33,049 INFO Consumed record with offset: 483
+2024-01-29 23:14:33,060 INFO Upload response: <Response [201]>
+2024-01-29 23:14:35,052 INFO Consumed record with offset: 484
+2024-01-29 23:14:35,063 INFO Upload response: <Response [201]>
+2024-01-29 23:14:37,054 INFO Consumed record with offset: 485
+2024-01-29 23:14:37,062 INFO Upload response: <Response [201]>
+2024-01-29 23:14:39,057 INFO Consumed record with offset: 486
+2024-01-29 23:14:39,066 INFO Upload response: <Response [201]>
+2024-01-29 23:14:41,060 INFO Consumed record with offset: 487
+2024-01-29 23:14:41,069 INFO Upload response: <Response [201]>
+2024-01-29 23:14:43,063 INFO Consumed record with offset: 488
+2024-01-29 23:14:43,073 INFO Upload response: <Response [201]>
+2024-01-29 23:14:45,063 INFO Consumed record with offset: 489
+2024-01-29 23:14:45,072 INFO Upload response: <Response [201]>
+2024-01-29 23:14:47,066 INFO Consumed record with offset: 490
+2024-01-29 23:14:47,075 INFO Upload response: <Response [201]>
+2024-01-29 23:14:49,069 INFO Consumed record with offset: 491
+2024-01-29 23:14:49,079 INFO Upload response: <Response [201]>
+2024-01-29 23:14:51,071 INFO Consumed record with offset: 492
+2024-01-29 23:14:51,080 INFO Upload response: <Response [201]>
+2024-01-29 23:14:53,075 INFO Consumed record with offset: 493
+2024-01-29 23:14:53,085 INFO Upload response: <Response [201]>
+2024-01-29 23:14:55,076 INFO Consumed record with offset: 494
+2024-01-29 23:14:55,085 INFO Upload response: <Response [201]>
+2024-01-29 23:14:57,080 INFO Consumed record with offset: 495
+2024-01-29 23:14:57,088 INFO Upload response: <Response [201]>
+2024-01-29 23:14:59,083 INFO Consumed record with offset: 496
+2024-01-29 23:14:59,091 INFO Upload response: <Response [201]>
+2024-01-29 23:15:01,085 INFO Consumed record with offset: 497
+2024-01-29 23:15:01,094 INFO Upload response: <Response [201]>
+2024-01-29 23:15:03,087 INFO Consumed record with offset: 498
+2024-01-29 23:15:03,097 INFO Upload response: <Response [201]>
+2024-01-29 23:15:05,092 INFO Consumed record with offset: 499
+2024-01-29 23:15:05,101 INFO Upload response: <Response [201]>
+2024-01-29 23:15:07,094 INFO Consumed record with offset: 500
+2024-01-29 23:15:07,103 INFO Upload response: <Response [201]>
+2024-01-29 23:15:09,097 INFO Consumed record with offset: 501
+2024-01-29 23:15:09,106 INFO Upload response: <Response [201]>
+2024-01-29 23:15:11,099 INFO Consumed record with offset: 502
+2024-01-29 23:15:11,108 INFO Upload response: <Response [201]>
+2024-01-29 23:15:13,102 INFO Consumed record with offset: 503
+2024-01-29 23:15:13,113 INFO Upload response: <Response [201]>
+2024-01-29 23:15:15,105 INFO Consumed record with offset: 504
+2024-01-29 23:15:15,114 INFO Upload response: <Response [201]>
+2024-01-29 23:15:17,107 INFO Consumed record with offset: 505
+2024-01-29 23:15:17,115 INFO Upload response: <Response [201]>
+2024-01-29 23:15:19,110 INFO Consumed record with offset: 506
+2024-01-29 23:15:19,119 INFO Upload response: <Response [201]>
+2024-01-29 23:15:21,112 INFO Consumed record with offset: 507
+2024-01-29 23:15:21,122 INFO Upload response: <Response [201]>
+2024-01-29 23:15:23,114 INFO Consumed record with offset: 508
+2024-01-29 23:15:23,124 INFO Upload response: <Response [201]>
+2024-01-29 23:15:25,116 INFO Consumed record with offset: 509
+2024-01-29 23:15:25,126 INFO Upload response: <Response [201]>
+2024-01-29 23:15:27,120 INFO Consumed record with offset: 510
+2024-01-29 23:15:27,128 INFO Upload response: <Response [201]>
+2024-01-29 23:15:29,123 INFO Consumed record with offset: 511
+2024-01-29 23:15:29,133 INFO Upload response: <Response [201]>
+2024-01-29 23:15:31,123 INFO Consumed record with offset: 512
+2024-01-29 23:15:31,132 INFO Upload response: <Response [201]>
+2024-01-29 23:15:33,154 INFO Consumed record with offset: 513
+2024-01-29 23:15:33,163 INFO Upload response: <Response [201]>
+2024-01-29 23:15:35,131 INFO Consumed record with offset: 514
+2024-01-29 23:15:35,140 INFO Upload response: <Response [201]>
+2024-01-29 23:15:37,133 INFO Consumed record with offset: 515
+2024-01-29 23:15:37,142 INFO Upload response: <Response [201]>
+2024-01-29 23:15:39,236 INFO Consumed record with offset: 516
+2024-01-29 23:15:39,246 INFO Upload response: <Response [201]>
+2024-01-29 23:15:41,136 INFO Consumed record with offset: 517
+2024-01-29 23:15:41,144 INFO Upload response: <Response [201]>
+2024-01-29 23:15:43,139 INFO Consumed record with offset: 518
+2024-01-29 23:15:43,149 INFO Upload response: <Response [201]>
+2024-01-29 23:15:45,142 INFO Consumed record with offset: 519
+2024-01-29 23:15:45,153 INFO Upload response: <Response [201]>
+2024-01-29 23:15:47,143 INFO Consumed record with offset: 520
+2024-01-29 23:15:47,153 INFO Upload response: <Response [201]>
+2024-01-29 23:15:49,145 INFO Consumed record with offset: 521
+2024-01-29 23:15:49,155 INFO Upload response: <Response [201]>
+2024-01-29 23:15:51,146 INFO Consumed record with offset: 522
+2024-01-29 23:15:51,156 INFO Upload response: <Response [201]>
+2024-01-29 23:15:53,149 INFO Consumed record with offset: 523
+2024-01-29 23:15:53,159 INFO Upload response: <Response [201]>
+2024-01-29 23:15:55,152 INFO Consumed record with offset: 524
+2024-01-29 23:15:55,162 INFO Upload response: <Response [201]>
+2024-01-29 23:15:57,155 INFO Consumed record with offset: 525
+2024-01-29 23:15:57,164 INFO Upload response: <Response [201]>
+2024-01-29 23:15:59,158 INFO Consumed record with offset: 526
+2024-01-29 23:15:59,167 INFO Upload response: <Response [201]>
+2024-01-29 23:16:01,160 INFO Consumed record with offset: 527
+2024-01-29 23:16:01,169 INFO Upload response: <Response [201]>
+2024-01-29 23:16:03,163 INFO Consumed record with offset: 528
+2024-01-29 23:16:03,174 INFO Upload response: <Response [201]>
+2024-01-29 23:16:05,166 INFO Consumed record with offset: 529
+2024-01-29 23:16:05,176 INFO Upload response: <Response [201]>
+2024-01-29 23:16:07,168 INFO Consumed record with offset: 530
+2024-01-29 23:16:07,177 INFO Upload response: <Response [201]>
+2024-01-29 23:16:09,184 INFO Consumed record with offset: 531
+2024-01-29 23:16:09,193 INFO Upload response: <Response [201]>
+2024-01-29 23:16:11,173 INFO Consumed record with offset: 532
+2024-01-29 23:16:11,181 INFO Upload response: <Response [201]>
+2024-01-29 23:16:13,174 INFO Consumed record with offset: 533
+2024-01-29 23:16:13,183 INFO Upload response: <Response [201]>
+2024-01-29 23:16:15,176 INFO Consumed record with offset: 534
+2024-01-29 23:16:15,185 INFO Upload response: <Response [201]>
+2024-01-29 23:16:17,179 INFO Consumed record with offset: 535
+2024-01-29 23:16:17,188 INFO Upload response: <Response [201]>
+2024-01-29 23:16:19,182 INFO Consumed record with offset: 536
+2024-01-29 23:16:19,192 INFO Upload response: <Response [201]>
+2024-01-29 23:16:21,185 INFO Consumed record with offset: 537
+2024-01-29 23:16:21,193 INFO Upload response: <Response [201]>
+2024-01-29 23:16:23,187 INFO Consumed record with offset: 538
+2024-01-29 23:16:23,197 INFO Upload response: <Response [201]>
+2024-01-29 23:16:25,190 INFO Consumed record with offset: 539
+2024-01-29 23:16:25,200 INFO Upload response: <Response [201]>
+2024-01-29 23:16:27,193 INFO Consumed record with offset: 540
+2024-01-29 23:16:27,202 INFO Upload response: <Response [201]>
+2024-01-29 23:16:29,196 INFO Consumed record with offset: 541
+2024-01-29 23:16:29,210 INFO Upload response: <Response [201]>
+2024-01-29 23:16:31,198 INFO Consumed record with offset: 542
+2024-01-29 23:16:31,207 INFO Upload response: <Response [201]>
+2024-01-29 23:16:33,200 INFO Consumed record with offset: 543
+2024-01-29 23:16:33,210 INFO Upload response: <Response [201]>
+2024-01-29 23:16:35,204 INFO Consumed record with offset: 544
+2024-01-29 23:16:35,212 INFO Upload response: <Response [201]>
+2024-01-29 23:16:37,206 INFO Consumed record with offset: 545
+2024-01-29 23:16:37,215 INFO Upload response: <Response [201]>
+2024-01-29 23:16:39,209 INFO Consumed record with offset: 546
+2024-01-29 23:16:39,217 INFO Upload response: <Response [201]>
+2024-01-29 23:16:41,224 INFO Consumed record with offset: 547
+2024-01-29 23:16:41,233 INFO Upload response: <Response [201]>
+2024-01-29 23:16:43,214 INFO Consumed record with offset: 548
+2024-01-29 23:16:43,224 INFO Upload response: <Response [201]>
+2024-01-29 23:16:45,217 INFO Consumed record with offset: 549
+2024-01-29 23:16:45,225 INFO Upload response: <Response [201]>
+2024-01-29 23:16:47,219 INFO Consumed record with offset: 550
+2024-01-29 23:16:47,227 INFO Upload response: <Response [201]>
+2024-01-29 23:16:49,221 INFO Consumed record with offset: 551
+2024-01-29 23:16:49,231 INFO Upload response: <Response [201]>
+2024-01-29 23:16:51,224 INFO Consumed record with offset: 552
+2024-01-29 23:16:51,232 INFO Upload response: <Response [201]>
+2024-01-29 23:16:53,226 INFO Consumed record with offset: 553
+2024-01-29 23:16:53,237 INFO Upload response: <Response [201]>
+2024-01-29 23:16:55,229 INFO Consumed record with offset: 554
+2024-01-29 23:16:55,239 INFO Upload response: <Response [201]>
+2024-01-29 23:16:57,233 INFO Consumed record with offset: 555
+2024-01-29 23:16:57,241 INFO Upload response: <Response [201]>
+2024-01-29 23:16:59,234 INFO Consumed record with offset: 556
+2024-01-29 23:16:59,248 INFO Upload response: <Response [201]>
+2024-01-29 23:17:01,236 INFO Consumed record with offset: 557
+2024-01-29 23:17:01,246 INFO Upload response: <Response [201]>
+2024-01-29 23:17:03,239 INFO Consumed record with offset: 558
+2024-01-29 23:17:03,249 INFO Upload response: <Response [201]>
+2024-01-29 23:17:05,242 INFO Consumed record with offset: 559
+2024-01-29 23:17:05,251 INFO Upload response: <Response [201]>
+2024-01-29 23:17:07,346 INFO Consumed record with offset: 560
+2024-01-29 23:17:07,355 INFO Upload response: <Response [201]>
+2024-01-29 23:17:09,247 INFO Consumed record with offset: 561
+2024-01-29 23:17:09,256 INFO Upload response: <Response [201]>
+2024-01-29 23:17:11,249 INFO Consumed record with offset: 562
+2024-01-29 23:17:11,259 INFO Upload response: <Response [201]>
+2024-01-29 23:17:13,253 INFO Consumed record with offset: 563
+2024-01-29 23:17:13,263 INFO Upload response: <Response [201]>
+2024-01-29 23:17:15,255 INFO Consumed record with offset: 564
+2024-01-29 23:17:15,264 INFO Upload response: <Response [201]>
+2024-01-29 23:17:17,257 INFO Consumed record with offset: 565
+2024-01-29 23:17:17,267 INFO Upload response: <Response [201]>
+2024-01-29 23:17:19,261 INFO Consumed record with offset: 566
+2024-01-29 23:17:19,270 INFO Upload response: <Response [201]>
+2024-01-29 23:17:21,264 INFO Consumed record with offset: 567
+2024-01-29 23:17:21,274 INFO Upload response: <Response [201]>
+2024-01-29 23:17:23,266 INFO Consumed record with offset: 568
+2024-01-29 23:17:23,275 INFO Upload response: <Response [201]>
+2024-01-29 23:17:25,270 INFO Consumed record with offset: 569
+2024-01-29 23:17:25,279 INFO Upload response: <Response [201]>
+2024-01-29 23:17:27,274 INFO Consumed record with offset: 570
+2024-01-29 23:17:27,283 INFO Upload response: <Response [201]>
+2024-01-29 23:17:29,276 INFO Consumed record with offset: 571
+2024-01-29 23:17:29,286 INFO Upload response: <Response [201]>
+2024-01-29 23:17:31,280 INFO Consumed record with offset: 572
+2024-01-29 23:17:31,288 INFO Upload response: <Response [201]>
+2024-01-29 23:17:33,282 INFO Consumed record with offset: 573
+2024-01-29 23:17:33,292 INFO Upload response: <Response [201]>
+2024-01-29 23:17:35,285 INFO Consumed record with offset: 574
+2024-01-29 23:17:35,295 INFO Upload response: <Response [201]>
+2024-01-29 23:17:37,287 INFO Consumed record with offset: 575
+2024-01-29 23:17:37,296 INFO Upload response: <Response [201]>
+2024-01-29 23:17:39,289 INFO Consumed record with offset: 576
+2024-01-29 23:17:39,298 INFO Upload response: <Response [201]>
+2024-01-29 23:17:41,292 INFO Consumed record with offset: 577
+2024-01-29 23:17:41,302 INFO Upload response: <Response [201]>
+2024-01-29 23:17:43,295 INFO Consumed record with offset: 578
+2024-01-29 23:17:43,304 INFO Upload response: <Response [201]>
+2024-01-29 23:17:45,296 INFO Consumed record with offset: 579
+2024-01-29 23:17:45,305 INFO Upload response: <Response [201]>
+2024-01-29 23:17:47,299 INFO Consumed record with offset: 580
+2024-01-29 23:17:47,308 INFO Upload response: <Response [201]>
+2024-01-29 23:17:49,301 INFO Consumed record with offset: 581
+2024-01-29 23:17:49,317 INFO Upload response: <Response [201]>
+2024-01-29 23:17:51,304 INFO Consumed record with offset: 582
+2024-01-29 23:17:51,313 INFO Upload response: <Response [201]>
+2024-01-29 23:17:53,306 INFO Consumed record with offset: 583
+2024-01-29 23:17:53,316 INFO Upload response: <Response [201]>
+2024-01-29 23:17:55,310 INFO Consumed record with offset: 584
+2024-01-29 23:17:55,320 INFO Upload response: <Response [201]>
+2024-01-29 23:17:57,312 INFO Consumed record with offset: 585
+2024-01-29 23:17:57,321 INFO Upload response: <Response [201]>
+2024-01-29 23:17:59,315 INFO Consumed record with offset: 586
+2024-01-29 23:17:59,328 INFO Upload response: <Response [201]>
+2024-01-29 23:18:01,316 INFO Consumed record with offset: 587
+2024-01-29 23:18:01,325 INFO Upload response: <Response [201]>
+2024-01-29 23:18:03,319 INFO Consumed record with offset: 588
+2024-01-29 23:18:03,330 INFO Upload response: <Response [201]>
+2024-01-29 23:18:05,321 INFO Consumed record with offset: 589
+2024-01-29 23:18:05,332 INFO Upload response: <Response [201]>
+2024-01-29 23:18:07,323 INFO Consumed record with offset: 590
+2024-01-29 23:18:07,332 INFO Upload response: <Response [201]>
+2024-01-29 23:18:09,326 INFO Consumed record with offset: 591
+2024-01-29 23:18:09,334 INFO Upload response: <Response [201]>
+2024-01-29 23:18:11,329 INFO Consumed record with offset: 592
+2024-01-29 23:18:11,340 INFO Upload response: <Response [201]>
+2024-01-29 23:18:13,329 INFO Consumed record with offset: 593
+2024-01-29 23:18:13,339 INFO Upload response: <Response [201]>
+2024-01-29 23:18:15,333 INFO Consumed record with offset: 594
+2024-01-29 23:18:15,341 INFO Upload response: <Response [201]>
+2024-01-29 23:18:17,354 INFO Consumed record with offset: 595
+2024-01-29 23:18:17,372 INFO Upload response: <Response [201]>
+2024-01-29 23:18:19,337 INFO Consumed record with offset: 596
+2024-01-29 23:18:19,345 INFO Upload response: <Response [201]>
+2024-01-29 23:18:21,339 INFO Consumed record with offset: 597
+2024-01-29 23:18:21,348 INFO Upload response: <Response [201]>
+2024-01-29 23:18:23,443 INFO Consumed record with offset: 598
+2024-01-29 23:18:23,453 INFO Upload response: <Response [201]>
+2024-01-29 23:18:25,345 INFO Consumed record with offset: 599
+2024-01-29 23:18:25,355 INFO Upload response: <Response [201]>
+2024-01-29 23:18:27,347 INFO Consumed record with offset: 600
+2024-01-29 23:18:27,356 INFO Upload response: <Response [201]>
+2024-01-29 23:18:29,350 INFO Consumed record with offset: 601
+2024-01-29 23:18:29,359 INFO Upload response: <Response [201]>
+2024-01-29 23:18:31,352 INFO Consumed record with offset: 602
+2024-01-29 23:18:31,363 INFO Upload response: <Response [201]>
+2024-01-29 23:18:33,355 INFO Consumed record with offset: 603
+2024-01-29 23:18:33,365 INFO Upload response: <Response [201]>
+2024-01-29 23:18:35,356 INFO Consumed record with offset: 604
+2024-01-29 23:18:35,365 INFO Upload response: <Response [201]>
+2024-01-29 23:18:37,359 INFO Consumed record with offset: 605
+2024-01-29 23:18:37,368 INFO Upload response: <Response [201]>
+2024-01-29 23:18:39,362 INFO Consumed record with offset: 606
+2024-01-29 23:18:39,370 INFO Upload response: <Response [201]>
+2024-01-29 23:18:41,365 INFO Consumed record with offset: 607
+2024-01-29 23:18:41,374 INFO Upload response: <Response [201]>
+2024-01-29 23:18:43,367 INFO Consumed record with offset: 608
+2024-01-29 23:18:43,377 INFO Upload response: <Response [201]>
+2024-01-29 23:18:45,369 INFO Consumed record with offset: 609
+2024-01-29 23:18:45,379 INFO Upload response: <Response [201]>
+2024-01-29 23:18:47,471 INFO Consumed record with offset: 610
+2024-01-29 23:18:47,480 INFO Upload response: <Response [201]>
+2024-01-29 23:18:49,373 INFO Consumed record with offset: 611
+2024-01-29 23:18:49,384 INFO Upload response: <Response [201]>
+2024-01-29 23:18:51,376 INFO Consumed record with offset: 612
+2024-01-29 23:18:51,385 INFO Upload response: <Response [201]>
+2024-01-29 23:18:53,379 INFO Consumed record with offset: 613
+2024-01-29 23:18:53,388 INFO Upload response: <Response [201]>
+2024-01-29 23:18:55,382 INFO Consumed record with offset: 614
+2024-01-29 23:18:55,390 INFO Upload response: <Response [201]>
+2024-01-29 23:18:57,385 INFO Consumed record with offset: 615
+2024-01-29 23:18:57,395 INFO Upload response: <Response [201]>
+2024-01-29 23:18:59,387 INFO Consumed record with offset: 616
+2024-01-29 23:18:59,395 INFO Upload response: <Response [201]>
+2024-01-29 23:19:01,389 INFO Consumed record with offset: 617
+2024-01-29 23:19:01,399 INFO Upload response: <Response [201]>
+2024-01-29 23:19:03,392 INFO Consumed record with offset: 618
+2024-01-29 23:19:03,402 INFO Upload response: <Response [201]>
+2024-01-29 23:19:05,395 INFO Consumed record with offset: 619
+2024-01-29 23:19:05,405 INFO Upload response: <Response [201]>
+2024-01-29 23:19:07,397 INFO Consumed record with offset: 620
+2024-01-29 23:19:07,407 INFO Upload response: <Response [201]>
+2024-01-29 23:19:09,400 INFO Consumed record with offset: 621
+2024-01-29 23:19:09,409 INFO Upload response: <Response [201]>
+2024-01-29 23:19:11,403 INFO Consumed record with offset: 622
+2024-01-29 23:19:11,412 INFO Upload response: <Response [201]>
+2024-01-29 23:19:13,406 INFO Consumed record with offset: 623
+2024-01-29 23:19:13,415 INFO Upload response: <Response [201]>
+2024-01-29 23:19:15,409 INFO Consumed record with offset: 624
+2024-01-29 23:19:15,420 INFO Upload response: <Response [201]>
+2024-01-29 23:19:17,423 INFO Consumed record with offset: 625
+2024-01-29 23:19:17,432 INFO Upload response: <Response [201]>
+2024-01-29 23:19:19,415 INFO Consumed record with offset: 626
+2024-01-29 23:19:19,423 INFO Upload response: <Response [201]>
+2024-01-29 23:19:21,416 INFO Consumed record with offset: 627
+2024-01-29 23:19:21,425 INFO Upload response: <Response [201]>
+2024-01-29 23:19:23,419 INFO Consumed record with offset: 628
+2024-01-29 23:19:23,430 INFO Upload response: <Response [201]>
+2024-01-29 23:19:25,421 INFO Consumed record with offset: 629
+2024-01-29 23:19:25,430 INFO Upload response: <Response [201]>
+2024-01-29 23:19:27,425 INFO Consumed record with offset: 630
+2024-01-29 23:19:27,435 INFO Upload response: <Response [201]>
+2024-01-29 23:19:29,427 INFO Consumed record with offset: 631
+2024-01-29 23:19:29,435 INFO Upload response: <Response [201]>
+2024-01-29 23:19:31,430 INFO Consumed record with offset: 632
+2024-01-29 23:19:31,438 INFO Upload response: <Response [201]>
+2024-01-29 23:19:33,432 INFO Consumed record with offset: 633
+2024-01-29 23:19:33,442 INFO Upload response: <Response [201]>
+2024-01-29 23:19:35,435 INFO Consumed record with offset: 634
+2024-01-29 23:19:35,444 INFO Upload response: <Response [201]>
+2024-01-29 23:19:37,438 INFO Consumed record with offset: 635
+2024-01-29 23:19:37,447 INFO Upload response: <Response [201]>
+2024-01-29 23:19:39,440 INFO Consumed record with offset: 636
+2024-01-29 23:19:39,448 INFO Upload response: <Response [201]>
+2024-01-29 23:19:41,444 INFO Consumed record with offset: 637
+2024-01-29 23:19:41,453 INFO Upload response: <Response [201]>
+2024-01-29 23:19:43,445 INFO Consumed record with offset: 638
+2024-01-29 23:19:43,457 INFO Upload response: <Response [201]>
+2024-01-29 23:19:45,464 INFO Consumed record with offset: 639
+2024-01-29 23:19:45,472 INFO Upload response: <Response [201]>
