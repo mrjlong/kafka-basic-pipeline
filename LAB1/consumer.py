@@ -31,7 +31,12 @@ def main():
     os.environ['KAFKA_TOPIC'] = "FirstTopic"
     os.environ['SERVER_END_POINT'] = "3.82.243.106:9200"
 
-    consumer = KafkaConsumer(os.getenv("KAFKA_TOPIC"), group_id='my-consumer-group', bootstrap_servers='3.82.243.106:9093')
+    consumer = KafkaConsumer(os.getenv("KAFKA_TOPIC"),
+                             group_id='my-consumer-group', 
+                             bootstrap_servers='3.82.243.106:9093',
+                             auto_offset_reset='earliest',
+                             enable_auto_commit=True
+                             )
 
     for msg in consumer:
         payload = json.loads(msg.value)
