@@ -9,6 +9,8 @@ logging.basicConfig(level=logging.INFO,
                     format='%(asctime)s %(levelname)s %(message)s',
                     handlers=[logging.FileHandler("consumer.log"), logging.StreamHandler()])
 
+pub_ip = os.getenv('SERVER_END_POINT').split(':')[0]
+
 class ElasticSearchKafkaUploadRecord:
     def __init__(self, json_data, hash_key, index_name):
         self.hash_key = hash_key
@@ -31,7 +33,7 @@ def main():
     # Now these will use the values from the environment variables set in .bashrc
     consumer = KafkaConsumer(os.getenv("KAFKA_TOPIC"),
                              group_id='my-consumer-group', 
-                             bootstrap_servers=os.getenv("KAFKA_SERVER"),
+                             bootstrap_servers=f"{pub_ip}:9093",
                              auto_offset_reset='earliest',
                              enable_auto_commit=True
                              )

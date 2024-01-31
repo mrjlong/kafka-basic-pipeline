@@ -6,8 +6,8 @@ try:
     from time import sleep
 except Exception as e:
     pass
-
-producer = KafkaProducer(bootstrap_servers=os.getenv("KAFKA_SERVER"))
+pub_ip = os.getenv('SERVER_END_POINT').split(':')[0]
+producer = KafkaProducer(bootstrap_servers=f"{pub_ip}:9093")
 _instance = Faker()
 
 
